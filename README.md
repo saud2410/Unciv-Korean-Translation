@@ -6,14 +6,17 @@ Unciv Korean translation by saud2410@naver.com
 
 ## Awkward lines
 
-제우스 동상 civilopedia
-- 모든 유닛 도시 대항 공격시 전투력 +15%
+"모든 유닛 도시 대항 공격시 전투력 +15%"
+- 제우스 동상 civilopedia
 
 <br>
 
 ## Missing lines
 
 all healing effects doubled = 
+- 젊음의샘 civilopedia
 - 대소문자 이슈
 - [4034] All healing effects doubled = 모든 회복 효과 두 배
 
+The possible rewards are: = 
+- 고대 유적 civilopedia
