@@ -19,7 +19,7 @@ Unciv Korean translation by saud2410@naver.com
 ~~The possible rewards are: =~~
 - 제보완료
 
-~~See also: ...~~
+~~See also: academy, farm, pasture, plantation, ...~~
 - 제보완료
 
 
