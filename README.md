@@ -13,13 +13,13 @@ Unciv Korean translation by saud2410@naver.com
 
 ## Missing lines
 
-~~all healing effects doubled = ~~
+~~all healing effects doubled =~~
 - 제보완료
 
-~~The possible rewards are: = 
+~~The possible rewards are: =~~
 - 제보완료
 
-~~See also: ...
+~~See also: ...~~
 - 제보완료
 
 
