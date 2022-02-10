@@ -13,10 +13,13 @@ Unciv Korean translation by saud2410@naver.com
 
 ## Missing lines
 
-all healing effects doubled = 
-- 젊음의샘 civilopedia
-- 대소문자 이슈
-- [4034] All healing effects doubled = 모든 회복 효과 두 배
+~~all healing effects doubled = ~~
+- 제보완료
 
-The possible rewards are: = 
-- 고대 유적 civilopedia
+~~The possible rewards are: = 
+- 제보완료
+
+~~See also: ...
+- 제보완료
+
+
