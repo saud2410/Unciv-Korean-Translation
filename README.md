@@ -10,9 +10,10 @@ Unciv Korean translation by saud2410@naver.com
 제우스 동상 civilopedia
 
 - Takes your religion over the one in their birth city =  
-꺼무) 개종당한 도시에서 뽑는 선교사나 이단심문관의 경우 해당종교를 따라가지만 선지자의 경우에는 어떤 도시에서 뽑더라도 원래 자신이 창시한 종교를 유지하고 있다.
-ENG G RUS CZE Swed. Fr. Sp. It. simp-Ch. IND.
+꺼무) 선지자의 경우에는 어떤 도시에서 뽑더라도 원래 자신이 창시한 종교를 유지하고 있다.
 
+- May upgrade to [baseUnitFilter] through ruins-like effects = 고대 유적 등을 통해서 [baseUnitFilter]으로 업그레이드 가능  
+ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 
 
 <br>
