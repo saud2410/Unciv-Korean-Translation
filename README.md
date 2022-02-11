@@ -30,6 +30,11 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 마야 특성의 [comment] 영역  
 새게임 또는 civilopedia 에서 확인가능  
 
+- Great Person  
+스웨덴 특성의 [param] 영역
+새게임 또는 civilopedia 에서 확인가능
+
 - 
+
 
 
