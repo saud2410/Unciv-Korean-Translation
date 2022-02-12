@@ -20,13 +20,11 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 
 # Missing
 
-- ~~all healing effects doubled =~~ 제보완료
-
-- ~~The possible rewards are: =~~ 제보완료
-
-- ~~See also: academy, farm, pasture, plantation, ...~~ 제보완료
-
-- ~~Requires~~ 제보완료
+- ~~all healing effects doubled =~~
+- ~~The possible rewards are: =~~
+- ~~See also: academy, farm, pasture, plantation, ...~~
+- ~~Requires~~
+- ~~Notified of new barbarian encampments~~
 
 - maya long count calander cycle  
 마야 특성의 [comment] 영역  
