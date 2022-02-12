@@ -41,5 +41,12 @@ civilopedia 의 Available for:
 - 정책 트리 이름  
 너무 뻔해서 넘겨버리는데 todo list 에는 필요함
 
+- Great admiral  
+Naval tradition 뿐만이 아니라 Autocracy complete 에도 있음
+
+
+
+
+
 
 
