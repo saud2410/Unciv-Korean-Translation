@@ -38,4 +38,8 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 civilopedia 의 Available for:  
 특히 Archery는 따로 항목을 만들지 않을 경우 궁술이 되어버리기 때문에 어색해짐
 
+- 정책 트리 이름  
+너무 뻔해서 넘겨버리는데 todo list 에는 필요함
+
+
 
