@@ -26,6 +26,8 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 
 - ~~See also: academy, farm, pasture, plantation, ...~~ 제보완료
 
+- ~~Requires~~ 제보완료
+
 - maya long count calander cycle  
 마야 특성의 [comment] 영역  
 새게임 또는 civilopedia 에서 확인가능  
@@ -37,7 +39,5 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 - Archery(냉병기 원거리), Gunpowder(화약 근접)  
 civilopedia 의 Available for:  
 특히 Archery는 따로 항목을 만들지 않을 경우 궁술이 되어버리기 때문에 어색해짐
-
-
 
 
