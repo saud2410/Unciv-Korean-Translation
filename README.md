@@ -49,4 +49,3 @@ Naval tradition 뿐만이 아니라 Autocracy complete 에도 있음
 
 
 
-
