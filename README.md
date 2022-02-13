@@ -1,6 +1,14 @@
 Unciv Korean translation by saud2410@naver.com
 <br>[saud2410 Korean.properties](https://github.com/saud2410/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 <br>[yairm210 Korean.properties](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
+
+<br>
+
+# Working
+
+- +[amount]% attack strength to all [mapUnitFilter] units for [amount2] turns  
+독재 완성 line ㅇㄷ?
+
 <br>
 
 # Awkward or Unclear
