@@ -44,10 +44,7 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 - ~~See also: academy, farm, pasture, plantation, ...~~
 - ~~Requires~~
 - ~~Notified of new barbarian encampments~~
-
-- maya long count calander cycle  
-마야 특성의 [comment] 영역  
-새게임 또는 civilopedia 에서 확인가능  
+- ~~maya long count calander cycle~~ 걍 내가 놓친거
 
 - Great Person  
 스웨덴 특성의 [param] 영역
