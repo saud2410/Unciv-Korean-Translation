@@ -10,7 +10,7 @@ Unciv Korean translation by saud2410@naver.com
 독재 완성 line ㅇㄷ?
 
 - [amount]들  
-]당, ] 배, ] HP 등 들쭉날쭉함  
+]당, ] 배, ] HP, ]턴 등  
 ~~아마도 기본적으로 띄우되 %가 있으면 붙이는게 좋지 않을까~~  
 아니 그러면 %도 HP도 단위인데  
 그냥 단위를 붙이고 다른걸 떨어뜨려야지  
