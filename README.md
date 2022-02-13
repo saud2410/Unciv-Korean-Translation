@@ -3,12 +3,6 @@ Unciv Korean translation by saud2410@naver.com
 <br>[yairm210 Korean.properties](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 <br>
 
-# Working
-
-- "우리가 이들 근처에~", "이들이 우리 근처에~" : 주어 생략?
-
-<br>
-
 # Awkward or Unclear
 
 - "모든 유닛 도시 대항 공격시 전투력 +15%"  
