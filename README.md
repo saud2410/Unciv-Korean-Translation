@@ -9,6 +9,9 @@ Unciv Korean translation by saud2410@naver.com
 - +[amount]% attack strength to all [mapUnitFilter] units for [amount2] turns  
 독재 완성 line ㅇㄷ?
 
+- Incompatible with [policy/tech/promotion]  
+동시 선택 불가 line ㅇㄷ?
+
 - [amount]들  
 ]당, ] 배, ]개, ] HP, ]턴 등  
 ~~아마도 기본적으로 띄우되 %가 있으면 붙이는게 좋지 않을까~~  
