@@ -6,11 +6,14 @@ Unciv Korean translation by saud2410@naver.com
 
 # Working
 
-- +[amount]% attack strength to all [mapUnitFilter] units for [amount2] turns  
-독재 완성 line ㅇㄷ?
+- ㅇㄷ?) +[amount]% attack strength to all [mapUnitFilter] units for [amount2] turns  
+독재 완성
 
-- Incompatible with [policy/tech/promotion]  
-동시 선택 불가 line ㅇㄷ?
+- ㅇㄷ?) Incompatible with [policy/tech/promotion]  
+동시 선택 불가
+
+- ㅇㄷ?) Requires a [buildingName] in at least [amount] cities  
+최소 [amount]개 도시에 [buildingName] 필요
 
 - [amount]들  
 ]당, ] 배, ]개, ] HP, ]턴 등  
