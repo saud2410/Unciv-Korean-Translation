@@ -9,6 +9,9 @@ Unciv Korean translation by saud2410@naver.com
 - +[amount]% attack strength to all [mapUnitFilter] units for [amount2] turns  
 독재 완성 line ㅇㄷ?
 
+- [amount]들  
+]당, ] 배, ] HP 등 들쭉날쭉함
+
 <br>
 
 # Awkward or Unclear
