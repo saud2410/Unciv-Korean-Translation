@@ -17,9 +17,6 @@
 
 # Awkward & Unclear
 
-- "모든 유닛 도시 대항 공격시 전투력 +15%"  
-제우스 동상 civilopedia
-
 - May upgrade to [baseUnitFilter] through ruins-like effects =  
 ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 
