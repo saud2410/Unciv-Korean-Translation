@@ -6,18 +6,14 @@
 - 오해가 없고 가독성이 허락하는 선에서 간결한 표현을 추구합니다.
 - 모든 특성(uniques)은 음슴체 또는 명사형으로 끝냈습니다. (ex. 모든 전문가에서 +2 과학)
 - 지도자 대사는 [문명 메트로폴리스](https://cafe.naver.com/civilization4#)의 문명 5 한글 패치를 참고했고, 앞으로도 많이 참고할 계획입니다.
-
 <br>
 
 # Working
 
-- [amount] 랑 단위 문제
-]당, ] 배, ]개, ] HP, ]턴 등  
-~~아마도 기본적으로 띄우되 %가 있으면 붙이는게 좋지 않을까~~  
-아니 그러면 %도 HP도 단위인데  
-그냥 단위를 붙이고 다른걸 떨어뜨려야지  
-(참고로 단위 앞의 숫자가 고유어면 띄워야 하지만 숫자면 붙여도됨)  
-<br>
+- [amount] & 단위:  
+%나 단위는 붙이고, 그외 나머지는 띄우기
+[국립국어원 2배 2 배 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010)
+
 
 # Awkward & Unclear
 
@@ -26,7 +22,6 @@
 
 - May upgrade to [baseUnitFilter] through ruins-like effects =  
 ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
-<br>
 
 # Missing
 
