@@ -11,7 +11,7 @@
 # Working
 
 - [amount] & 단위:  
-%나 단위는 붙이고, 그외 나머지는 띄우기
+%나 단위는 붙이고, 그외 나머지는 띄우기  
 [국립국어원 2배 2 배 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010)
 
 
