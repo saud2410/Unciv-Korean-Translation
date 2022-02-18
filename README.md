@@ -1,7 +1,8 @@
 # Unciv Korean translation
-[Unciv Korean.properties](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
+[yairm unciv](https://github.com/yairm210/Unciv) / [forked unciv](https://github.com/saud2410/Unciv) / [comp%](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/completionPercentages.properties)
 
-- **번역 꼬우면 [여기서](https://github.com/yairm210/Unciv) 직접 하세요.** 저한테 말씀하시는건 상관없는데 저도 누구 허락받고 하는게 아닙니다.
+
+- **번역 꼬우면 [여기서](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties) 직접 하세요.** 저한테 말씀하시는건 상관없는데 저도 누구 허락받고 하는게 아닙니다.
 - 돈 안드는 아마추어 이하의 작업방식이라 문5 정발은 구매하지 않고 검색으로만 참고했습니다.
 - 오해가 없고 가독성이 허락하는 선에서 간결한 표현을 추구합니다.
 - 모든 특성(uniques)은 음슴체 또는 명사형으로 끝냈습니다. (ex. 모든 전문가에서 +2 과학)
