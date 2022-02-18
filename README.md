@@ -1,6 +1,5 @@
 # Unciv Korean translation
-[yairm unciv](https://github.com/yairm210/Unciv)
-[forked unciv](https://github.com/saud2410/Unciv)
+[yairm unciv](https://github.com/yairm210/Unciv) / [forked unciv](https://github.com/saud2410/Unciv)
 
 - **번역 꼬우면 [여기서](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties) 직접 하세요.** 저한테 말씀하시는건 상관없는데 저도 누구 허락받고 하는게 아닙니다.
 - 돈 안드는 아마추어 이하의 작업방식이라 문5 정발은 구매하지 않고 검색으로만 참고했습니다.
