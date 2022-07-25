@@ -23,4 +23,3 @@ ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 # Missing
 
 - ~~Archery(냉병기 원거리), Gunpowder(화약 근접)~~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
-- ~~Great admiral: Autocracy complete 에도 있음~~ 어련히 알아서 하겠지
