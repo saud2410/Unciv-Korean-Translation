@@ -8,31 +8,19 @@
 - 지도자 대사는 [문명 메트로폴리스](https://cafe.naver.com/civilization4#)의 문명 5 한글 패치를 참고했고, 앞으로도 많이 참고할 계획입니다.
 <br>
 
-# Working
-
-- [amount] & 단위:  
-%만 붙이고 나머지는 다 띄우기  
-[국립국어원 2배 2 배 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010)
-
-- ~~추가v지형~~ 추가지형
-
-- 공중전에서 다수의 전투기에게 공격받기
-
-- 멀티 관련 번역 전혀 안돼있음
-
+# to-do
 - civilopedia 긴글 몇개
-
+- 멀티 관련 번역 전혀 안돼있음
+- 공중전에서 다수의 전투기에게 공격받기
 - 도저히 뭔지 알수없는 짜잘한 unique들 여러개
 
+# complete
+- [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
+- 유정: 시추지점 / 유전: 원유 또는 시추기가 분포한 지역
+- ~~추가v지형~~ 추가지형
 
-# Awkward & Unclear
+# morgessoyo
 
-- May upgrade to [baseUnitFilter] through ruins-like effects =  
-ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
-
-# Missing & etc.
-
+# missing
 - ~~Archery(냉병기 원거리), Gunpowder(화약 근접)~~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
-
-- 유정: 원유를 시추하는 시설 / 유전: 원유(또는 그 시추기)가 여럿 분포한 넓은 지역
 
