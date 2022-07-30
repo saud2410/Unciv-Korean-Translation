@@ -16,7 +16,13 @@
 
 - ~~추가v지형~~ 추가지형
 
-- 유정: 원유를 시추하는 시설 / 유전: 원유(또는 그 시추기)가 여럿 분포한 넓은 지역
+- 공중전에서 다수의 전투기에게 공격받기
+
+- 멀티 관련 번역 전혀 안돼있음
+
+- civilopedia 긴글 몇개
+
+- 도저히 뭔지 알수없는 짜잘한 unique들 여러개
 
 
 # Awkward & Unclear
@@ -24,6 +30,9 @@
 - May upgrade to [baseUnitFilter] through ruins-like effects =  
 ruins-like 가 뭔데? 유적이면 유적이지 -like는 왜?
 
-# Missing
+# Missing & etc.
 
 - ~~Archery(냉병기 원거리), Gunpowder(화약 근접)~~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
+
+- 유정: 원유를 시추하는 시설 / 유전: 원유(또는 그 시추기)가 여럿 분포한 넓은 지역
+
