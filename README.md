@@ -17,10 +17,11 @@
 # Complete
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
 - 유정: 시추지점 / 유전: 원유 또는 시추기가 분포한 지역
-- ~~추가v지형~~ 추가지형
+- ~추가v지형~ 추가지형
+- ~짓다~ 건설하다, ~지을~ 건설할
 
 # Morugessoyo
 
 # Missing
-- ~~Archery(냉병기 원거리), Gunpowder(화약 근접)~~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
+- ~Archery(냉병기 원거리), Gunpowder(화약 근접)~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
 
