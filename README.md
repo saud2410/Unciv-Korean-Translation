@@ -10,8 +10,8 @@
 
 # To-do
 - smoothed random
-ㄴ smoothed: 균일, 균질은 뒤에 오는 random과 충돌할 수 있어서 안됨. 어떤 의미에서 smooth한지 확인이 필요함.
-ㄴ random: Perlin을 대체하는 맵 생성 알고리즘. "기본" 보다 바다가 더 넓은 경향이 있음.
+</br>ㄴ smoothed: 균일, 균질은 뒤에 오는 random과 충돌할 수 있어서 안됨. 어떤 의미에서 smooth한지 확인이 필요함.
+</br>ㄴ random: Perlin을 대체하는 맵 생성 알고리즘. "기본" 보다 바다가 더 넓은 경향이 있음.
 
 # Guideline
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
