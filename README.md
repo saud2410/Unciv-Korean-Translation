@@ -1,5 +1,5 @@
 # Unciv Korean translation
-[yairm unciv](https://github.com/yairm210/Unciv) / [forked unciv](https://github.com/saud2410/Unciv)
+[yairm unciv kor.prop](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 
 - **번역 꼬우면 [여기서](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties) 직접 하세요.**
 - 맞춤법은 제가 꼴리거나 고민될 때만 적당히 따릅니다.
