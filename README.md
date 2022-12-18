@@ -1,7 +1,7 @@
 # Unciv Korean translation
 [yairm unciv kor.prop](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 
-- **번역 꼬우면 [여기서](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties) 직접 하세요.**
+- **번역 꼬우면 위 링크에 직접 PR 하세요.**
 - 맞춤법은 제가 꼴리거나 고민될 때만 적당히 따릅니다.
 - 오해가 없고 가독성이 허락하는 선에서 간결한 표현을 추구합니다.
 - 돈 안드는 아마추어 이하의 작업방식이라 문5 정발은 검색으로만 참고했습니다.
