@@ -14,7 +14,7 @@
 # Guideline
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
 - 유정: 시추지점 / 유전: 원유 또는 시추기가 분포한 지역
-- ~추가v지형~ 추가지형
+- terrain feature: ~지형특성~ ~추가v지형~ 추가지형
 - ~짓다~ 건설하다, ~지을~ 건설할
 - 도움말을 제외한 모든 알림, UI는 해요체(하세요)가 아닌 하십시오체 사용
 - ~체력~ HP. 체력 쓰고싶으면 번역파일 전체 다 바꿀것
