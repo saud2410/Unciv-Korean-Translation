@@ -9,7 +9,7 @@
 <br>
 
 # To-do
-
+- Game settings = 게임 세팅 (멀티플레이)
 
 # Guideline
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
