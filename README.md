@@ -10,6 +10,7 @@
 
 # To-do
 - Game settings = 게임 세팅 (멀티플레이)
+- Cannot be adopted together with = ~와 함께 채택할 수 없음 (브라켓 없이 그냥 문장 형태라 어떻게 나오는지 봐야함)
 
 # Guideline
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
