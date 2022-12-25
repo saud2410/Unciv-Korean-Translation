@@ -1,8 +1,6 @@
 # Unciv Korean translation
 [yairm unciv kor.prop](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 
-<br>
-
 # To-do
 - Game settings = 게임 세팅 (멀티플레이)
 - Cannot be adopted together with = ~와 함께 채택할 수 없음 (브라켓 없이 그냥 문장 형태라 어떻게 나오는지 봐야함)
