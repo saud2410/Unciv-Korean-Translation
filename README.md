@@ -17,5 +17,5 @@
 # Morugessoyo
 
 # Missing
-- ~Archery(냉병기 원거리), Gunpowder(화약 근접)~ [말해봤는데 안해줄듯](https://github.com/yairm210/Unciv/issues/6131)
+- ~Archery(냉병기 원거리)~ (https://github.com/yairm210/Unciv/issues/6131)
 
