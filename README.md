@@ -2,8 +2,6 @@
 [yairm unciv kor.prop](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 
 # To-do
-- Game settings = 게임 세팅 (멀티플레이)
-- Cannot be adopted together with = ~와 함께 채택할 수 없음 (브라켓 없이 그냥 문장 형태라 어떻게 나오는지 봐야함)
 - 종교 중심지 5 종교의 신도 이상의 도시에서 사원에서 (어휴...)
 
 # Guideline
@@ -14,7 +12,7 @@
 - 도움말을 제외한 모든 알림, UI는 해요체(하세요)가 아닌 하십시오체 사용
 - ~체력~ HP. 체력 쓰고싶으면 번역파일 전체 다 바꿀것
 - unknown: ~미지의~ 알 수 없는.
-- are you sure~: ~정말로~ 정말, 게임 진행 중에 나오는 메시지에는 적지 않음
+- are you sure~: ~정말로~ 정말 (게임 진행 중에 나오는 메시지에는 적지 않음)
 
 # Morugessoyo
 
