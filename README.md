@@ -5,6 +5,7 @@
 - 종교 중심지 5 종교의 신도 이상의 도시에서 사원에서 (어휴...)
 
 # Guideline
+- 중복검사 정규표현식: ```(?<line>^.+$)(.*\n)+?(\k<line>)```
 - [amount] & 단위: % 말고 나머지 다 띄움 ([국립국어원 설명](https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=117010))
 - 유정: 시추지점 / 유전: 원유 또는 시추기가 분포한 지역
 - terrain feature: ~지형특성~ ~추가v지형~ 추가지형
