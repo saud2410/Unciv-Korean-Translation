@@ -4938,7 +4938,7 @@ Wu = 무
 Zhou = 저우
 Sun = 쑨
  # Requires translation!
-upon entering the [era] = 
+upon entering the [era] = [era] 진입 시
 Gain [amount] [stat] = [amount] [stat] 획득
 
 Refaat = 리파트
@@ -6148,27 +6148,27 @@ This Unit gains [amount] XP = 유닛이 [amount] XP 획득
 This Unit upgrades for free including special upgrades = 유닛 업그레이드 무료
 This Unit gains the [promotion] promotion = 유닛이 [promotion] 승급 획득
  # Requires translation!
-upon discovering [tech] = 
+upon discovering [tech] = [tech] 연구 시
  # Requires translation!
-upon adopting [policy] = 
+upon adopting [policy] = [policy] 채택 시
  # Requires translation!
-upon declaring war with a major Civilization = 
+upon declaring war with a major Civilization = 주요 문명과 전쟁 시
  # Requires translation!
-upon declaring friendship = 
+upon declaring friendship = 우호 선언 시
  # Requires translation!
-upon entering a Golden Age = 
+upon entering a Golden Age = 황금기 진입 시
  # Requires translation!
-upon conquering a city = 
+upon conquering a city = 도시 점령 시
  # Requires translation!
-upon constructing [buildingFilter] = 
+upon constructing [buildingFilter] = [buildingFilter] 건설 시
  # Requires translation!
-upon constructing [buildingFilter] [cityFilter] = 
+upon constructing [buildingFilter] [cityFilter] = [cityFilter]에 [buildingFilter] 건설 시
  # Requires translation!
-upon founding a Pantheon = 
+upon founding a Pantheon = 종교관 선택 시
  # Requires translation!
-upon founding a Religion = 
+upon founding a Religion = 종교 창시 시
  # Requires translation!
-upon enhancing a Religion = 
+upon enhancing a Religion = 종교 강화 시
 Hidden after generating a Great Prophet = 위대한 선지자 획득후 숨겨짐
 Triggerable = 촉발 가능
 Global = 전역
