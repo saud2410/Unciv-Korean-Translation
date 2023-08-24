@@ -299,7 +299,7 @@ Non-existent city = 없는 도시
 
 [resourceName] not required = [resourceName] 자원이 불필요함
  # Requires translation!
-Lost ability (vs [originalUnit]): [ability] = 
+Lost ability (vs [originalUnit]): [ability] = 없어진 특성 (vs [originalUnit]): [ability]
  # Requires translation!
 Upgrade all [count] [unit] ([cost] gold) = 
 National ability = 문명 특성
@@ -318,11 +318,11 @@ Load copied data = 복사된 데이터 불러오기
 Reset to defaults = 설정 초기화
 Select nations = 문명 선택
  # Requires translation!
-Set available nations for random pool = 
+Set available nations for random pool = 사용자 지정 무작위 문명
  # Requires translation!
-Available nations = 
+Available nations = 가능한 문명
  # Requires translation!
-Banned nations = 
+Banned nations = 금지된 문명
 Are you sure you want to reset all game options to defaults? = 모든 게임 설정을 정말 초기화하겠습니까?
 Start game! = 게임 시작!
 Map Options = 지도 설정
@@ -348,7 +348,7 @@ Four Corners = 사합점
 Archipelago = 군도
 Inner Sea = 내해
  # Requires translation!
-Perlin = 
+Perlin = 펄린
 Random number of Civilizations = 문명 수 랜덤
 Min number of Civilizations = 문명 수 최소
 Max number of Civilizations = 문명 수 최대
@@ -453,21 +453,21 @@ Mods: = 모드:
 Extension mods = 확장 모드
 Base ruleset: = 기본 룰셋:
 # Note - do not translate the colour names between «». Changing them works if you know what you're doing.
-The mod you selected is incorrectly defined! = 선택한 모드의 정의가 올바르지 않습니다!
+The mod you selected is incorrectly defined! = 선택한 모드가 올바르게 정의되지 않았습니다!
  # Requires translation!
-The mod you selected is «RED»incorrectly defined!«» = 
-The mod combination you selected is incorrectly defined! = 선택한 모드들의 정의가 서로 올바르지 않습니다!
+The mod you selected is «RED»incorrectly defined!«» = 선택한 모드가 «RED»올바르게 정의되지 않았습니다!«»
+The mod combination you selected is incorrectly defined! = 선택한 모드가 서로 올바르게 정의되지 않았습니다!
  # Requires translation!
-The mod combination you selected is «RED»incorrectly defined!«» = 
-The mod combination you selected has problems. = 선택한 모드들에 문제가 있습니다.
-You can play it, but don't expect everything to work! = 실행할 수는 있지만 문제가 생길수도 있다는걸 유념하십시오!
+The mod combination you selected is «RED»incorrectly defined!«» = 선택한 모드가 서로 «RED»올바르게 정의되지 않았습니다!«»
+The mod combination you selected has problems. = 선택한 모드 간에 문제가 있습니다.
+You can play it, but don't expect everything to work! = 실행은 할 수 있지만 문제가 생길 수도 있다는 것을 유념하십시오!
  # Requires translation!
-The mod combination you selected «GOLD»has problems«». = 
+The mod combination you selected «GOLD»has problems«». = 선택한 모드 간에 «GOLD»문제가 있습니다.«»
  # Requires translation!
-You can play it, but «GOLDENROD»don't expect everything to work!«» = 
-This base ruleset is not compatible with the previously selected\nextension mods. They have been disabled. = 기본 룰셋이 앞서 선택한 확장 모드와 호환되지 않습니다. 확장 모드가 비활성화됩니다.
+You can play it, but «GOLDENROD»don't expect everything to work!«» = 실행은 할 수 있지만 «GOLDENROD»문제가 생길 수도 있다는 것을 유념하십시오!«»
+This base ruleset is not compatible with the previously selected\nextension mods. They have been disabled. = 선택한 기본 룰셋에 호환되지 않는 확장 모드가 비활성화되었습니다.
  # Requires translation!
-Are you really sure you want to play with the following known problems? = 
+Are you really sure you want to play with the following known problems? = 경고를 무시하고 실행하시겠습니까?
 Base Ruleset = 기본 룰셋
 [amount] Techs = [amount]개 기술
 [amount] Nations = [amount]개 국가
@@ -509,7 +509,7 @@ Revert to map ruleset = 지도 룰셋 되돌리기
 Reset the controls to reflect the current map ruleset = 현재 지도 룰셋에 맞게 컨트롤 재설정
 Features = 추가지형
 Starting locations = 시작 지점
-Tile Matching Criteria = 타일 매칭
+Tile Matching Criteria = 타일 배치 기준
 Complete match = 완전 일치
 Except improvements = 시설 제외
 Base and terrain features = 기본 및 추가지형
