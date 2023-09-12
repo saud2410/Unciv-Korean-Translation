@@ -18,7 +18,6 @@
 - transform: ~변형~ ~변화~ 변신.
 
 # Morugessoyo
-- Permanent: visible이랑 뭐가 다른지?
 
 # Missing
 - ~Archery(냉병기 원거리)~ (https://github.com/yairm210/Unciv/issues/6131)
