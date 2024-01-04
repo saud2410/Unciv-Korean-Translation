@@ -3,7 +3,7 @@
 - vscode 중복검사: ```(?<line>^.+$)(.*\n)+?(\k<line>)```
 
 # Morugessoyo
-
+- "당신"
 
 # Hassoyo
 - 하십시오체(합니다) 사용 *예외: 도움말.
