@@ -15,6 +15,7 @@
 - unknown: ~미지의~ 알 수 없는.
 - are you sure~: ~정말로~ 정말 (게임 진행 중에 나오는 메시지에는 적지 않음)
 - transform: ~변형~ ~변화~ 변신.
+- experimental: 불안정한.
 
 # Motessoyo
 - 에만 가능 (페트라 vs 합리 정책)
