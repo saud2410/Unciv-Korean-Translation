@@ -4,6 +4,7 @@
 
 # Morugessoyo
 - "당신"
+- large amount: 다량의 vs 대량의
 
 # Hassoyo
 - 하십시오체(합니다) 사용 *예외: 도움말.
