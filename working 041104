@@ -2741,7 +2741,7 @@ We believe in the same religion = 우리와 같은 종교를 믿고 있네요.
 Main Menu = 메인메뉴
 World Screen = 세계 화면
  # Requires translation!
-AutoPlay menu = 
+AutoPlay menu = 오토 메뉴
  # Requires translation!
 NextTurn menu = 
 Map Panning = 지도 이동
@@ -2750,9 +2750,9 @@ City Screen = 도시 화면
 City Screen Construction Menu = 도시 화면 건설 메뉴
 Popups = 팝업창
  # Requires translation!
-Quit = 
+Quit = 닫기
  # Requires translation!
-Deselect then Quit = 
+Deselect then Quit = 해제 후 닫기
 Menu = 메뉴
 Next Turn = 다음 턴
  # Requires translation!
@@ -2781,26 +2781,26 @@ Empire Overview Stats =
 Empire Overview Resources = 
 Quick Save = 빠른 저장
  # Requires translation!
-Quick Load = 
+Quick Load = 빠른 불러오기
 View Capital City = 수도 보기
 Save Game = 저장하기
 Load Game = 불러오기
  # Requires translation!
-Toggle Resource Display = 
+Toggle Resource Display = 자원 보기 토글
  # Requires translation!
-Toggle Yield Display = 
+Toggle Yield Display = 산출 보기 토글
 Quit Game = 게임 종료하기
 New Game = 게임 시작하기
  # Requires translation!
-Espionage = 
+Espionage = 첩보
  # Requires translation!
-Undo = 
+Undo = 실행 취소
  # Requires translation!
-Toggle UI = 
+Toggle UI = UI 토글
  # Requires translation!
-Toggle Worked Tiles Display = 
+Toggle Worked Tiles Display = 시민 배치 보기 토글
  # Requires translation!
-Toggle Movement Display = 
+Toggle Movement Display = 이동 보기 토글
 Zoom In = 확대
 Zoom Out = 축소
 Pan Up = 위로
@@ -2852,7 +2852,7 @@ Open the Search Dialog =
  # Requires translation!
 Confirm Dialog = 
  # Requires translation!
-Cancel Dialog = 
+Cancel Dialog = 대화 취소
 Upgrade All = 모두 업그레이드
 
 #################### Lines from Buildings from Civ V - Vanilla ####################
@@ -3375,9 +3375,9 @@ Hello, again. = 어서 오십시오. 또 만났군요.
 Oh, it's you! = 아, 네놈이구나!
 Sun Never Sets = 해가 지지 않는 나라
  # Requires translation!
-Long live to Your Highness, Queen Elizabeth Gloriana, leader and protector of the glorious England! Through history, enduring many invasions, England strengthened its will, playing smartly with diplomacy, cunning, and military power, to eventually rose as one of the most dominant Empires the world has ever known. Their matchless navy, brilliant scientists and artists, and powerful merchants, have shaped the known world for centuries. = 
+Long live to Your Highness, Queen Elizabeth Gloriana, leader and protector of the glorious England! Through history, enduring many invasions, England strengthened its will, playing smartly with diplomacy, cunning, and military power, to eventually rose as one of the most dominant Empires the world has ever known. Their matchless navy, brilliant scientists and artists, and powerful merchants, have shaped the known world for centuries. = 영광스러운 잉글랜드의 지도자이자 수호자인 엘리자베스 글로리아나 여왕 폐하 만세! 역사를 통틀어 수많은 외침을 견뎌낸 영국은 외교, 지략, 군사력에 기반한 굳은 의지를 통해 결국 세계에서 가장 지배적인 제국 중 하나로 올라섰습니다. 영국의 무적의 해군, 뛰어난 과학자와 예술가, 강력한 상인들은 수 세기 동안 세상을 빚어냈습니다.
  # Requires translation!
-Queen Elizabeth, will England cast once more its brightness upon all lands and seas of the world? Will your new empire shine through the ages of history? = 
+Queen Elizabeth, will England cast once more its brightness upon all lands and seas of the world? Will your new empire shine through the ages of history? = 엘리자베스 여왕 폐하, 영국은 모든 땅과 물에서 다시 한번 찬란하게 빛날 수 있을까요? 그대의 제국이 세월 속에서 빛나게 하시겠습니까?
 London = 런던
 York = 요크
 Nottingham = 노팅엄
