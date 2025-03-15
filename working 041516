@@ -9,6 +9,21 @@
 # Don't translate these words to your language, only put 'true' or 'false'.
 StartWithCapitalLetter = false
 
+# Diacritics Support:
+# See https://yairm210.github.io/Unciv/Other/Translating/#diacritics-support for details!
+# Most languages will not need these, feel free to ignore, or use "" to avoid the "requires translation" mark. Do NOT translate the "key" to the left of the equals sign!
+ # Requires translation!
+diacritics_support = 
+ # Requires translation!
+unicode_block_start_character = 
+ # Requires translation!
+unicode_block_end_character = 
+ # Requires translation!
+left_joining_diacritics = 
+ # Requires translation!
+right_joining_diacritics = 
+ # Requires translation!
+left_and_right_joiners = 
 
 # Fastlane
 # These will be automatically copied to the fastlane descriptions used by F-Droid. Their keys are not as usual the english original, please read those directly as linked.
@@ -32,21 +47,22 @@ Delete = 삭제
 Civ V - Vanilla = 문명 5 - 기본
 Civ V - Gods & Kings = 문명 5 - 신과 왕
 
-# Tutorial tasks
+# Obsolete Tutorial tasks - the active lines are moved to 'Lines from Events', much later in the tranlsation file.
+# TODO remove after grace period which allows translators to copy and paste existing translations to the new format.
 
 Move a unit!\nClick on a unit > Click on a destination > Click the arrow popup = 유닛을 움직이세요!\n\n유닛 선택 > 움직일 위치 선택 > 화살표 클릭
 Found a city!\nSelect the Settler (flag unit) > Click on 'Found city' (bottom-left corner) = 도시를 건설하세요!\n\n개척자 선택(깃발 모양) > 도시 설립 선택(좌하단)
 Enter the city screen!\nClick the city button twice = 도시 화면에 들어가보세요!\n\n도시 버튼 두번 클릭
-Pick a technology to research!\nClick on the tech button (greenish, top left) > \n select technology > click 'Research' (bottom right) = 연구할 기술을 선택하세요!\n\n기술 선택(좌상단) > 연구할 기술 선택 > '~ 연구' 클릭(우하단)
-Pick a construction!\nEnter city screen > Click on a unit or building (bottom left side) > \n click 'add to queue' = 생산을 선택하세요!\n\n도시 화면으로 > 유닛이나 건물 선택(좌측) '항목 추가' 클릭
+Pick a technology to research!\nClick on the tech button (greenish, top left) > \n Select technology > Click 'Research' (bottom right) = 연구할 기술을 선택하세요!\n\n기술 선택(좌상단) > 연구할 기술 선택 > '~ 연구' 클릭(우하단)
+Pick a construction!\nEnter city screen > Click on a unit or building (bottom left side) > \n Click 'add to queue' = 생산을 선택하세요!\n\n도시 화면으로 > 유닛이나 건물 선택(좌측) '항목 추가' 클릭
 Pass a turn!\nCycle through units with 'Next unit' > Click 'Next turn' = 턴을 넘기세요!\n\n'다음 유닛' 클릭 > 모든 행동 완료 > '다음 턴' 클릭
-Reassign worked tiles!\nEnter city screen > click the assigned (green) tile to unassign > \n click an unassigned tile to assign population = 인구를 배치하세요!\n\n도시 화면으로 > 인구가 배치된(밝은 초록색) 타일을 클릭해서 인구배치 취소 > 배치되지 않은 타일에 인구 배치
+Reassign worked tiles!\nEnter city screen > Click the assigned (green) tile to unassign > \n Click an unassigned tile to assign population = 인구를 배치하세요!\n\n도시 화면으로 > 인구가 배치된(밝은 초록색) 타일을 클릭해서 인구배치 취소 > 배치되지 않은 타일에 인구 배치
 Meet another civilization!\nExplore the map until you encounter another civilization! = 다른 문명을 만나세요!\n다른 문명을 만날 때까지 맵을 탐색하세요
-Open the options table!\nClick the menu button (top left) > click 'Options' = 설정을 열어보세요!\n\n메뉴 열기(좌상단, ≡) > '설정' 클릭
+Open the options table!\nClick the menu button (top left) > Click 'Options' = 설정을 열어보세요!\n\n메뉴 열기(좌상단, ≡) > '설정' 클릭
 Construct an improvement!\nConstruct a Worker unit > Move to a Plains or Grassland tile > \n Click 'Construct improvement' (above the unit table, bottom left)\n > Choose the farm > \n Leave the worker there until it's finished = 시설을 건설하세요!\n\n노동자 생산 > 노동자를 평원이나 초원으로 이동시킴 > '시설 건설' 클릭(좌하단) > 농장 선택\n* 건설이 끝나기 전에 노동자를 움직여서 행동력이 0이 되면 건설이 진행되지 않습니다.
 Create a trade route!\nConstruct roads between your capital and another city\nOr, automate your worker and let him get to that eventually = 무역로를 만드세요!\n수도에서 다른 도시까지 도로를 건설하세요. 노동자를 직접 조작하거나 '자동 건설'(좌하단)하면 됩니다.
 Conquer a city!\nBring an enemy city down to low health > \nEnter the city with a melee unit = 도시를 점령하세요!\n적 도시를 공격하여 HP를 충분히 깎은 다음에 근접 유닛으로 도시를 공격하여 진입해야만 합니다.
-Move an air unit!\nSelect an air unit > select another city within range > \nMove the unit to the other city = 공중 유닛을 움직여보세요!\n공중 유닛 선택 > 이동 범위 내의 다른 도시 선택 > 다른 도시로 이동
+Move an air unit!\nSelect an air unit > Select another city within range > \nMove the unit to the other city = 공중 유닛을 움직여보세요!\n공중 유닛 선택 > 이동 범위 내의 다른 도시 선택 > 다른 도시로 이동
 See your stats breakdown!\nEnter the Overview screen (top right corner) >\nClick on 'Stats' = 통계를 확인하세요!\'문명 상태' 클릭(우상단) > '통계' 탭 클릭\n* 우상단 문명상태 외에도 상단 UI를 통해서 통계, 자원, 기술, 정책 화면 등을 바로 볼 수 있습니다.
 
 # Crash screen
@@ -73,13 +89,28 @@ Get [unitName] = [unitName] 획득
 Hydro Plant = 수력 발전소
 [buildingName] obsoleted = [buildingName] 건설 불가
 
+# City naming when list exhausted
+
+ # Requires translation!
+New [cityName] = 
+ # Requires translation!
+Neo [cityName] = 
+ # Requires translation!
+Nova [cityName] = 
+ # Requires translation!
+Altera [cityName] = 
+ # Requires translation!
+New [civName]\n(formerly known as [cityName]) = 
+
 # Diplomacy,Trade,Nations
 
 Requires [buildingName] to be built in the city = 도시에 [buildingName] 필요
 Requires [buildingName] to be built in all cities = 모든 도시에 [buildingName] 필요
 Provides a free [buildingName] in the city = 도시에 [buildingName] 무료로 제공
-Requires worked [resource] near city = 도시 주변에 개발된 [resource] 자원 필요
-Requires at least one of the following resources worked near the city: = 도시 주변에 다음 중 하나의 자원을 개발해야함:
+ # Requires translation!
+Requires improved [resource] near city = 
+ # Requires translation!
+Requires at least one of the following resources improved near the city: = 
 Wonder is being built elsewhere = 다른 도시에서 건설중
 National Wonder is being built elsewhere = 다른 도시에서 건설중
 Requires a [buildingName] in all [cityFilter] cities = 모든 [cityFilter] 도시에 [buildingName] 필요
@@ -95,6 +126,12 @@ Requires [PolicyOrNationalWonder] = [PolicyOrNationalWonder] 필요
 Cannot be purchased = 구매 불가
 Can only be purchased = 구매 전용
 See also = 같이 보기
+ # Requires translation!
+Use default promotions = 
+ # Requires translation!
+Default promotions for [unitName] = 
+ # Requires translation!
+Statuses = 
 
 Requires at least one of the following: = 다음 중 하나가 필요함: 
 Requires all of the following: = 다음이 모두 필요함:
@@ -105,6 +142,8 @@ Disables: = 비활성화:
 
 Current construction = 현재 건설중
 Construction queue = 건설 대기중
+ # Requires translation!
+Queue = 
 Pick a construction = 생산 선택
 Queue empty = 대기열이 비었음
 Add to queue = 항목 추가
@@ -147,6 +186,30 @@ Denounce ([numberOfTurns] turns) = 비난 ([numberOfTurns] 턴 동안)
 We will remember this. = 우리는 이 일을 기억할 것입니다.
 
 [civName] has declared war on [targetCivName]! = [civName]이(가) [targetCivName]에게 선전포고했습니다!
+# Join War
+ # Requires translation!
+[civName] has joined [allyCivName] in the war against us! = 
+ # Requires translation!
+We have joined [allyCivName] in the war against [enemyCivName]! = 
+ # Requires translation!
+[civName] has joined [allyCivName] in the war against [enemyCivName]! = 
+ # Requires translation!
+[civName] has joined us in the war against [enemyCivName]! = 
+# Team War
+ # Requires translation!
+You and [allyCivName] have declared war against [enemyCivName]! = 
+ # Requires translation!
+[civName] and [allyCivName] have declared war against us! = 
+ # Requires translation!
+[civName] and [allyCivName] have declared war against [enemyCivName]! = 
+
+ # Requires translation!
+[civName] cancelled their Defensive Pact with [otherCivName]! = 
+ # Requires translation!
+[civName] cancelled their Defensive Pact with us! = 
+ # Requires translation!
+We have cancelled our Defensive Pact with [civName]! = 
+
 [civName] and [targetCivName] have signed a Peace Treaty! = [civName]와(과) [targetCivName]이(가) 평화 협정을 맺었습니다!
 [civName] and [targetCivName] have signed the Declaration of Friendship! = [civName]와(과) [targetCivName]이(가) 우호 관계가 되었습니다!
 [civName] has denounced [targetCivName]! = [civName]이(가) [targetCivName]을(를) 비난했습니다!
@@ -154,9 +217,15 @@ Do you want to break your promise to [leaderName]? = [leaderName]에게 했던 �
 Break promise = 약속 파기
 We promised not to settle near them ([count] turns remaining) = 이들 근처에 새 도시를 건설하지 않겠다고 약속함 ([count] 턴 남음)
 They promised not to settle near us ([count] turns remaining) = 우리 근처에 새 도시를 건설하지 않겠다고 약속함 ([count] 턴 남음)
+ # Requires translation!
+We promised not to spread religion to them ([count] turns remaining) = 
+ # Requires translation!
+They promised not to spread religion to us ([count] turns remaining) = 
 
 [civName] is upset that you demanded tribute from [cityState], whom they have pledged to protect! = [civName]이(가) 보호하는 [cityState]에게 공물을 요구하여 그들이 분노했습니다!
 [civName] is upset that you attacked [cityState], whom they have pledged to protect! = [civName]이(가) 보호하는 [cityState]을(를) 공격하여 그들이 분노했습니다!
+ # Requires translation!
+[civName] is upset that you attacked [cityState], whom they are allied with! = 
 [civName] is outraged that you destroyed [cityState], whom they had pledged to protect! = [civName]이(가) 보호하는 [cityState]을(를) 점령하여 그들이 격노했습니다!
 [civName] has destroyed [cityState], whom you had pledged to protect! = [civName]이(가) 우리가 보호하는 [cityState]을(를) 점령했습니다!
 
@@ -180,14 +249,30 @@ Current leader(s): [leaders], you: [yourScore] =
 [civInfo] with [value] [valueType] = 
 
 Demands = 요구
+# Will be deprecated in a few versions
 Please don't settle new cities near us. = 내 근처에 새로운 도시를 건설하지 마시오.
+ # Requires translation!
+Don't settle new cities near us. = 
 Very well, we shall look for new lands to settle. = 알겠습니다. 정착할 새로운 땅을 찾아 보도록 하지요.
 We shall do as we please. = 우리가 원하는 데 살고자 하는 것이 잘못입니까?
 We noticed your new city near our borders, despite your promise. This will have....implications. = 저번에 약속했는데 우리 근처에 또 도시를 세웠군요. 아주 잘 알겠습니다.
+ 
+# Will be deprecated in a few versions
+ # Requires translation!
+Please don't spread your religion to us. = 
+ # Requires translation!
+Don't spread religion in our cities. = 
+ # Requires translation!
+Very well, we shall spread our faith elsewhere. = 
+ # Requires translation!
+We noticed you have continued spreading your faith, despite your promise. This will have...consequences. = 
+ 
 I've been informed that my armies have taken tribute from [civName], a city-state under your protection.\nI assure you, this was quite unintentional, and I hope that this does not serve to drive us apart. = 우리 군대가 당신이 보호하는 [civName](으)로부터 공물을 취했다는 보고를 받았소.\n장담컨대 이는 본의가 아니니, 서로 서먹해지지 않았으면 좋겠군요.
 We asked [civName] for a tribute recently and they gave in.\nYou promised to protect them from such things, but we both know you cannot back that up. = 최근 [civName]에게 공물을 요구했는데, 그들은 순순히 내어주더군.\n당신의 보호 선언이 무의미하다는 걸 나도 그들도 알고 있는 거라오.
-It's come to my attention that I may have attacked [civName], a city-state under your protection.\nWhile it was not my goal to be at odds with your empire, this was deemed a necessary course of action. = 당신이 보호하는 [civName]을 우리가 공격한 것 같습니다.\n당신의 제국과 마찰을 일으키고 싶지는 않지만, 우리도 작전상 불가피한 상황이었습니다.
+It's come to my attention that I may have attacked [civName].\nWhile it was not my goal to be at odds with your empire, this was deemed a necessary course of action. = 당신이 보호하는 [civName]을 우리가 공격한 것 같습니다.\n당신의 제국과 마찰을 일으키고 싶지는 않지만, 우리도 작전상 불가피한 상황이었습니다.
 I thought you might like to know that I've launched an invasion of one of your little pet states.\nThe lands of [civName] will make a fine addition to my own. = 당신의 작은 속국 중 하나를 우리가 침공했는데, 어떠시오?\n[civName]의 영토는 내게 큰 보탬이 될 것이오.
+ # Requires translation!
+THIS MEANS WAR! = 
 
 Return [unitName] to [civName]? = [unitName]을(를) [civName]에 반환할까요?
 The [unitName] we liberated originally belonged to [civName]. They will be grateful if we return it to them. = 해방시킨 [unitName]은(는) 원래 [civName] 소속입니다. 반환하면 그들이 고마워할 것입니다.
@@ -226,6 +311,8 @@ City-States grow wary of your aggression. The resting point for Influence has de
 [cityState] is being attacked by [civName]! Kill [amount] of the attacker's military units and they will be immensely grateful. = [cityState]이(가) [civName]에게 공격받고 있습니다! 침략자의 유닛 [amount]기를 해치워주면 대단히 감사할 것입니다.
 [cityState] is deeply grateful for your assistance in the war against [civName]! = [cityState]이(가) [civName]와(과)의 전쟁에 협력해준 것에 깊이 감사합니다!
 [cityState] no longer needs your assistance against [civName]. = [cityState]이(가) [civName]에 대한 도움을 더는 필요로 하지 않습니다.
+ # Requires translation!
+[cityState] cancelled the quests they had given you because you demanded tribute from them. = 
 War against [civName] = [civName]와(과)의 전쟁
 We need you to help us defend against [civName]. Killing [amount] of their military units would slow their offensive. = [civName]을(를) 막아내는데 도움이 필요하오. 그들의 군사 유닛 [amount]기를 해치워주면 공세를 늦출 수 있을 것이오.
 Currently you have killed [amount] of their military units. = 현재 [amount]기의 유닛을 처치했습니다.
@@ -271,7 +358,6 @@ Military Rank = 군사력 순위
 Military near City-State = 도시 국가 근처의 군사력
 Sum: = 합계
 
-
 # Trades
 
 Trade = 거래
@@ -303,6 +389,8 @@ Introduction to [nation] = [nation]에 대한 소개
 Declare war on [nation] = [nation]에 선전포고
 Luxury resources = 사치 자원
 Strategic resources = 전략 자원
+ # Requires translation!
+Stockpiled resources = 
 Owned by you: [amountOwned] = 보유중인 자원: [amountOwned]
 Non-existent city = 없는 도시
 
@@ -332,6 +420,8 @@ Start game! = 게임 시작!
 Map Options = 지도 설정
 Game Options = 게임 설정
 Civilizations = 문명
+ # Requires translation!
+Shuffle Civ Order at Start = 
 Map Type = 지도 선택
 Map file = 지도 파일
 Max Turns = 최대 턴수
@@ -343,6 +433,10 @@ Existing = 기존 지도
 Custom = 커스텀
 Map Generation Type = 지도 유형
 Enabled Map Generation Types = 허용된 지도 유형
+ # Requires translation!
+Example map = 
+
+# Map types
 Default = 기본
 Pangaea = 판게아
 Continent and Islands = 대륙과 군도
@@ -352,6 +446,11 @@ Four Corners = 사합점
 Archipelago = 군도
 Inner Sea = 내해
 Perlin = 펄린
+ # Requires translation!
+Small Continents = 
+ # Requires translation!
+Fractal = 
+
  # Requires translation!
 Select players from starting locations = 
 Random number of Civilizations = 문명 수 랜덤
@@ -403,7 +502,7 @@ This is used for painting resources, not in map generator steps: = 자원 배치
 Advanced Settings = 고급 설정
 RNG Seed = 난수 시드값
 Map Elevation = 육지 높이
-Temperature extremeness = 온도 편차
+Temperature intensity = 온도 편차
 Temperature shift = 온도 편중
 Resource richness = 자원 밀도
 Vegetation richness = 초목 밀도
@@ -614,7 +713,7 @@ Player ID is already in your friends list! = 친구 목록에 유저ID가 이미
 You have to write a name for your friend! = 친구 이름을 입력해야 합니다!
 You have to write an ID for your friend! = 친구의 유저ID를 입력해야 합니다!
 You cannot add your own player ID in your friend list! = 자신의 유저ID를 친구 목록에 넣을 수 없습니다!
-To add a friend, ask him to send you his player ID.\nClick the 'Add friend' button.\nInsert his player ID and a name for him.\nThen click the 'Add friend' button again.\n\nAfter that you will see him in your friends list.\n\nA new button will appear when creating a new\nmultiplayer game, which allows you to select your friend. = 친구를 추가하려면 친구의 유저ID가 필요합니다.\n'친구 추가' 를 눌러서 친구의 이름과 유저ID를 입력합니다.\n'친구 추가' 를 다시 누르면 친구가 등록됩니다.\n\n목록에 친구가 있다면 멀티를 만들 때 친구를 선택할 수 있습니다.
+To add a friend, ask him to send you his player ID.\nClick the 'Add friend' button.\nInsert his player ID and a name for him.\nThen Click the 'Add friend' button again.\n\nAfter that you will see him in your friends list.\n\nA new button will appear when creating a new\nmultiplayer game, which allows you to select your friend. = 친구를 추가하려면 친구의 유저ID가 필요합니다.\n'친구 추가' 를 눌러서 친구의 이름과 유저ID를 입력합니다.\n'친구 추가' 를 다시 누르면 친구가 등록됩니다.\n\n목록에 친구가 있다면 멀티를 만들 때 친구를 선택할 수 있습니다.
 Please input Player ID! = 유저ID를 입력해 주십시오!
 The number of players will be adjusted = 플레이어 수가 조정됩니다.
 These [numberOfPlayers] players will be adjusted = [numberOfPlayers]명의 플레이어가 조정됩니다.
@@ -642,10 +741,24 @@ Game name = 게임 이름
 Loading latest game state... = 새로고침 중...
 You are not allowed to spectate! = 관전 권한이 없습니다!
 Couldn't download the latest game state! = 새로고침할 수 없습니다!
+
+## Resign button
 Resign = 기권
 Are you sure you want to resign? = 정말 기권하겠습니까?
 You can only resign if it's your turn = 자기 차례에만 기권할 수 있습니다.
 [civName] resigned and is now controlled by AI = [civName] 문명이 기권하여 AI에 의해 조작됩니다.
+
+## Force resign button
+ # Requires translation!
+Force current player to resign = 
+ # Requires translation!
+Are you sure you want to force the current player to resign? = 
+
+ # Requires translation!
+Skip turn of current player = 
+ # Requires translation!
+Are you sure you want to skip the turn of the current player? = 
+
 Last refresh: [duration] ago = 최근 새로고침: [duration] 전
 Current Turn: [civName] since [duration] ago = 현재 차례: [civName], [duration] 전부터
 Seconds = 초
@@ -685,6 +798,8 @@ Could not load game from clipboard! = 클립보드에서 불러올 수 없습니
 Could not load game from custom location! = 지정된 경로에서 불러올 수 없습니다!
 The file data seems to be corrupted. = 데이터가 손상된 파일입니다.
 The save was created with an incompatible version of Unciv: [version]. Please update Unciv to this version or later and try again. = 파일이 호환되지 않습니다. Unciv [version] 또는 그 이후의 버전으로 업데이트한 후 다시 시도해 주십시오.
+ # Requires translation!
+You do not have sufficient permissions to access the file. = 
 Load [saveFileName] = [saveFileName] 불러오기
 Are you sure you want to delete this save? = 파일을 정말 삭제하겠습니까?
 Delete save = 삭제
@@ -703,6 +818,10 @@ Missing mods: [mods] = [mods] 모드 없음
 Load from custom location = 임의의 경로에서 불러오기
 Save to custom location = 임의의 경로에 저장하기
 Could not save game to custom location! = 지정된 경로에 저장할 수 없습니다!
+ # Requires translation!
+'[saveFileName]' copied to clipboard! = 
+ # Requires translation!
+Could not save game to clipboard! = 
 Download missing mods = 누락된 모드 다운로드
 Missing mods are downloaded successfully. = 누락된 모드가 다운로드되었습니다.
 Could not load the missing mods! = 누락된 모드를 불러올 수 없습니다!
@@ -718,6 +837,8 @@ About = 정보
 Version = 버전
 See online Readme = 온라인 README 보기
 Visit repository = 저장소 방문
+ # Requires translation!
+Visit the wiki = 
 
 ## Display tab
 Display = 화면
@@ -752,9 +873,8 @@ Hidden = 숨기기
 Visible = 보이기
 Permanent = 항상 보기
 
-Minimap size = 미니맵 크기
-# This is the leftmost Minimap size slider position
-off = 끄기
+ # Requires translation!
+Show minimap = 미니맵 보기
 
 Show tutorials = 튜토리얼 보기
 Reset tutorials = 튜토리얼 초기화
@@ -787,9 +907,15 @@ When disabled, saves battery life but certain animations will be suspended = 해
 
 ## Gameplay tab
 Gameplay = 게임
-Check for idle units = 턴 넘기기 전에 미행동 유닛 보기
+Check for idle units = 턴 넘기기 전 미행동 유닛 보기
+ # Requires translation!
+'Next unit' button cycles idle units = '다음 유닛' 버튼으로 미행동 유닛 보기
 Auto Unit Cycle = '다음 유닛' 버튼 자동
+ # Requires translation!
+Show Small Skip/Cycle Unit Button = 
 Move units with a single tap = 탭 한 번에 유닛 이동
+ # Requires translation!
+Move units with a long tap = 길게 탭하여 유닛 이동
 Auto-assign city production = 도시 생산 선택 자동
 Auto-build roads = 도로 건설 자동
 Automated workers replace improvements =  시설 대체 자동
@@ -827,7 +953,10 @@ Could not download music! = 음악을 다운로드 할 수 없습니다!
 
 ## Advanced tab
 Advanced = 고급
+ # Requires translation!
+Number of autosave files stored = 자동저장 파일 갯수
 Turns between autosaves = 자동저장 간격
+
 
 Screen orientation = 화면 방향
 Landscape (fixed) = 가로 고정
@@ -873,6 +1002,10 @@ Hide = 숨기기
 HIGHLY EXPERIMENTAL - YOU HAVE BEEN WARNED! = 경고: 불안정한 실험 기능입니다!
 You need to restart the game for this change to take effect. = 변경된 설정을 적용하려면 게임을 재시작해야 합니다.
 
+# AutomationTab
+ # Requires translation!
+Automation = 자동화
+
 # AutoPlay
 AutoPlay = 오토
 Show AutoPlay button = 오토 버튼 보이기
@@ -913,19 +1046,29 @@ An unknown civilization has completed [construction]! = 알 수 없는 문명에
 The city of [cityname] has started constructing [construction]! = [cityname]에서 [construction]의 건설을 시작했습니다!
 [civilization] has started constructing [construction]! = [civilization]에서 [construction]의 건설을 시작했습니다!
 An unknown civilization has started constructing [construction]! = 알 수 없는 문명에서 [construction]의 건설을 시작했습니다!
-Work has started on [construction] = [construction]의 건설을 시작했습니다.
-[cityName] cannot continue work on [construction] = [cityName]에서 [construction]을(를) 건설할 수 없습니다.
+ # Requires translation!
+[cityName] has started working on [construction] = 
 [cityName] has expanded its borders! = [cityName]의 영역이 확장되었습니다!
 Your Golden Age has ended. = 황금기가 끝났습니다.
 [cityName] has been razed to the ground! = [cityName]이(가) 완전히 파괴되었습니다!
 We have conquered the city of [cityName]! = [cityName]을(를) 점령했습니다!
-Your citizens are revolting due to very high unhappiness! = 높은 불행으로 인해 시민들이 반란을 일으켰습니다.
-An enemy [unit] has attacked [cityName] = 적 [unit]이(가) [cityName]을(를) 공격했습니다.
-An enemy [unit] ([amount] HP) has attacked [cityName] ([amount2] HP) = 적 [unit] ([amount] HP)이(가) [cityName] ([amount2] HP)을(를) 공격했습니다.
-An enemy [unit] has attacked our [ourUnit] = 적 [unit]이(가) 아군 [ourUnit]을(를) 공격했습니다.
-An enemy [unit] ([amount] HP) has attacked our [ourUnit] ([amount2] HP) = 적 [unit] ([amount] HP)이(가) 아군 [ourUnit] ([amount2] HP)을(를) 공격했습니다.
+ # Requires translation!
+Your citizens are revolting due to very high unhappiness! = 
+
+  
+ # Requires translation!
+An enemy [unit] has attacked [cityName] ([amount2] HP) = 
+ # Requires translation!
+An enemy [unit] ([amount] HP) has attacked [cityName] ([amount2] HP) = 
+ # Requires translation!
+An enemy [unit] ([amount] HP) has [battleAction] our [ourUnit] ([amount2] HP) = 
+ # Requires translation!
+An enemy [unit] has attacked our [ourUnit] ([amount] HP) = 
+ # Requires translation!
+An enemy [unit] ([amount] HP) has attacked our [ourUnit] ([amount2] HP) = 
 Enemy city [cityName] has attacked our [ourUnit] = 적 도시 [cityName]이(가) 아군 [ourUnit]을(를) 공격했습니다.
-Enemy city [cityName] ([amount] HP) has attacked our [ourUnit] ([amount2] HP) = 적 도시 [cityName] ([amount] HP)이(가) 아군 [ourUnit] ([amount2] HP)을(를) 공격했습니다.
+ # Requires translation!
+Enemy city [cityName] has attacked our [ourUnit] ([amount2] HP) = 
 An enemy [unit] has captured [cityName] = 적 [unit]이(가) [cityName]을(를) 점령했습니다.
 An enemy [unit] ([amount] HP) has captured [cityName] ([amount2] HP) = 적 [unit] ([amount] HP)이(가) [cityName] ([amount2] HP)을(를) 점령했습니다.
 An enemy [unit] has raided [cityName] = 적 [unit]이(가) [cityName]을(를) 습격했습니다.
@@ -944,16 +1087,20 @@ An enemy [unit] was destroyed while attacking [cityName] = 적 [unit]이(가) [c
 An enemy [unit] ([amount] HP) was destroyed while attacking [cityName] ([amount2] HP) = 적 [unit] ([amount] HP)이(가) [cityName] ([amount2] HP)에게 반격당해 제거되었습니다.
 An enemy [unit] was destroyed while attacking our [ourUnit] = 적 [unit]이(가) 아군 [ourUnit]에게 반격당해 제거되었습니다.
 An enemy [unit] ([amount] HP) was destroyed while attacking our [ourUnit] ([amount2] HP) = 적 [unit] ([amount] HP)이(가) 아군 [ourUnit] ([amount2] HP)에게 반격당해 제거되었습니다.
+
+# Interception messages
+Our [attackerName] ([amount] HP) was attacked by an intercepting [interceptorName] ([amount2] HP) = 아군 [attackerName] ([amount] HP)이(가) 적 [interceptorName] ([amount2] HP)에게 요격당했습니다.
+Our [attackerName] ([amount] HP) was attacked by an unknown interceptor = 아군 [attackerName] ([amount] HP)이(가) 알 수 없는 적에게 요격당했습니다.
 Our [attackerName] ([amount] HP) was destroyed by an intercepting [interceptorName] ([amount2] HP) = 아군 [attackerName] ([amount] HP)이(가) 적 [interceptorName] ([amount2] HP)에게 요격당해 제거되었습니다.
 Our [attackerName] ([amount] HP) was destroyed by an unknown interceptor = 아군 [attackerName] ([amount] HP)이(가) 알 수 없는 적에게 요격당해 제거되었습니다.
 Our [interceptorName] ([amount] HP) intercepted and destroyed an enemy [attackerName] ([amount2] HP) = 아군 [interceptorName] ([amount] HP)이(가) 적 [attackerName] ([amount2] HP)을(를) 요격하여 제거했습니다.
 Our [attackerName] ([amount] HP) destroyed an intercepting [interceptorName] ([amount2] HP) = 아군 [attackerName] ([amount] HP)이(가) 요격을 시도하는 적 [interceptorName] ([amount2] HP)을(를) 제거했습니다.
 Our [interceptorName] ([amount] HP) intercepted and was destroyed by an enemy [attackerName] ([amount2] HP) = 아군 [interceptorName] ([amount] HP)이(가) 적 [attackerName] ([amount2] HP)에게 요격당해 제거되었습니다.
 Our [interceptorName] ([amount] HP) intercepted and was destroyed by an unknown enemy = 아군 [interceptorName] ([amount] HP)이(가) 알 수 없는 적에게 요격당해 제거되었습니다.
-Our [attackerName] ([amount] HP) was attacked by an intercepting [interceptorName] ([amount2] HP) = 아군 [attackerName] ([amount] HP)이(가) 적 [interceptorName] ([amount2] HP)에게 요격당했습니다.
-Our [attackerName] ([amount] HP) was attacked by an unknown interceptor = 아군 [attackerName] ([amount] HP)이(가) 알 수 없는 적에게 요격당했습니다.
 Our [interceptorName] ([amount] HP) intercepted and attacked an enemy [attackerName] ([amount2] HP) = 아군 [interceptorName] ([amount] HP)이(가) 적 [attackerName] ([amount2] HP)을(를) 요격했습니다.
+
 Nothing tried to intercept our [attackerName] = [attackerName]이(가) 요격당하지 않았습니다.
+
 An enemy [unit] was spotted near our territory = 적 [unit]이(가) 아군 영토 근처에서 발견되었습니다.
 An enemy [unit] was spotted in our territory = 적 [unit]이(가) 아군 영토 내에서 발견되었습니다.
 An enemy [unit] has destroyed our tile improvement [improvement] = 적 [unit]이(가) 아군 [improvement] 시설을 파괴했습니다!
@@ -963,7 +1110,7 @@ Your city [cityName] can bombard the enemy! = [cityName]이(가) 적을 공격�
 [amount] enemy units were spotted in our territory = 적 [amount]명이 아군 영토 내에서 발견되었습니다.
 A(n) [nukeType] from [civName] has exploded in our territory! = [civName]의 [nukeType]이(가) 우리 영토에 떨어졌습니다!
 A(n) [nukeType] has been detonated by [civName]! = [civName]의 [nukeType]이(가) 발사되었습니다!
-A(n) [nukeType] has been detonated by an unkown civilization! = 알 수 없는 문명의 [nukeType]이(가)) 발사되었습니다!
+A(n) [nukeType] has been detonated by an unknown civilization! = 알 수 없는 문명의 [nukeType]이(가)) 발사되었습니다!
  # Requires translation!
 After an attempted attack by our [nukeType], [civName] has declared war on us! = 
 After being hit by our [nukeType], [civName] has declared war on us! = [civName]이(가) 아군 [nukeType]에 피격되어 전쟁을 선포했습니다!
@@ -995,6 +1142,8 @@ You and [name] are no longer allies! = [name] 도시국가와 이제 동맹 관�
 [civName] has denounced us! = [civName]이(가) 우리를 비난했습니다!
 [cityName] has been connected to your capital! = [cityName]이(가) 수도와 연결되었습니다!
 [cityName] has been disconnected from your capital! = [cityName]와(과) 수도의 연결이 끊겼습니다!
+ # Requires translation!
+Connect road completed = 
 [civName] has accepted your trade request = [civName]이(가) 거래를 받아들였습니다.
 [civName] has made a counteroffer to your trade request = [civName]이(가) 거래의 수정안을 제시했습니다.
 [civName] has denied your trade request = [civName]이(가) 거래를 거절했습니다.
@@ -1006,6 +1155,10 @@ One of our trades with [nation] has ended = [nation]와(과)의 거래가 만료
 One of our trades with [nation] has been cut short = [nation]와(과)의 거래가 중단되었습니다.
 [nation] agreed to stop settling cities near us! = [nation]이(가) 우리 근처에 도시를 건설하지 않겠다고 했습니다!
 [nation] refused to stop settling cities near us! = [nation]이(가) 우리 근처에 도시를 건설하지 않는 것을 거절했습니다!
+ # Requires translation!
+[nation] agreed to stop spreading religion to us! = 
+ # Requires translation!
+[nation] refused to stop spreading religion to us! = 
 We have allied with [nation]. = [nation]의 동맹이 되었습니다.
 We have lost alliance with [nation]. = [nation]와(과)의 동맹 관계가 끝났습니다.
 We have discovered [naturalWonder]! = [naturalWonder]을(를) 발견했습니다!
@@ -1080,6 +1233,8 @@ due to our [unitName] defeating a [otherUnitName] = 아군 [unitName]이(가) [o
 due to our [unitName] being defeated by a [otherUnitName] = 아군 [unitName]이(가) [otherUnitName]에게 제거되어
 due to our [unitName] losing [amount] HP = 아군 [unitName]이 [amount] HP의 피해를 입어
 due to our [unitName] being promoted = 아군 [unitName]이 승급하여
+ # Requires translation!
+due to expending our [unitName] = 
 from the ruins = 유적에서
 
 # World Screen UI
@@ -1098,8 +1253,18 @@ Turn = 턴
 turns = 턴
 turn = 턴
 Next unit = 다음 유닛
+ # Requires translation!
+[amount] units idle = [amount]기 대기중
+ # Requires translation!
+[idleCount] idle = 
+ # Requires translation!
+[skipCount] skipping = 
+ # Requires translation!
+Cycle = 
 Fog of War = 전장의 안개
 Pick a policy = 정책 선택
+ # Requires translation!
+Move Spies = 스파이 이동
 Movement = 행동력
 Strength = 전투력
 Ranged strength = 원거리 공격력
@@ -1117,9 +1282,13 @@ Construct road = 도로 건설
 Fortify = 요새화
 Fortify until healed = 회복될 때까지 요새화
 Fortification = 요새화
+ # Requires translation!
+Guard = 
+ # Requires translation!
+Guarding = 
 Sleep = 대기
 Sleep until healed = 회복될 때까지 대기
-Moving = 이동 중
+Moving = 이동중
 Set up = 설치
 Escort formation = 호위
 Stop Escort formation = 호위 중지
@@ -1144,13 +1313,13 @@ Pillage = 약탈
 Pillage [improvement] = [improvement] 약탈
 [improvement] (Pillaged!) = [improvement] (약탈됨)
 Repair [improvement] - [turns] = [improvement] 수리 - [turns]
-Wait = 넘기기
+ # Requires translation!
+Skip turn = 
 Are you sure you want to pillage this [improvement]? = [improvement]을(를) 약탈하겠습니까?
 We have looted [amount] from a [improvement] = [improvement]을(를) 약탈하여 [amount]를 얻었습니다.
 We have looted [amount] from a [improvement] which has been sent to [cityName] = [cityName](으)로 보내지던 [improvement]을(를) 약탈하여 [amount]를 얻었습니다.
 An enemy [unitName] has pillaged our [improvement] = 적 [unitName]이(가) 우리 [improvement]을(를) 약탈했습니다.
 Create [improvement] = [improvement] 건설
-Start Golden Age = 황금기 시작
 Trigger unique = 특성 활성화
 Show more = 더 보기
 Yes = 네
@@ -1166,7 +1335,6 @@ Culture = 문화
 Science = 과학
 Faith = 신앙
 
-Crop Yield = 식량 생산량
 Growth = 성장
 Territory = 영토
 Force = 군사력
@@ -1190,7 +1358,6 @@ Quickstart = 빠른 시작
 Cannot start game with the default new game parameters! = 기본 설정으로 게임을 시작할 수 없습니다!
 Victory status = 승리 조건
 Social policies = 사회 정책
-Community = 커뮤니티
 Close = 닫기
 Do you want to exit the game? = 게임을 종료하겠습니까?
 Exit = 종료
@@ -1204,13 +1371,15 @@ Your scientists and theologians have devised a systematic approach to measuring 
 While the rest of the world calls the current year [year], in the Maya Calendar that is: = 세계의 다른 나라들은 올해를 [year]으로 부르지만, 마야 장기력에서는 다음과 같습니다:
 [amount] b'ak'tun, [amount2] k'atun, [amount3] tun = [amount] 박툰, [amount2] 카툰, [amount3] 툰
 
-# City screen
+# City Screen
 
 Exit city = 도시 화면 나가기
 Raze city = 도시 파괴
 Stop razing city = 파괴 중단
 Buy for [amount] gold = [amount]골드로 구매
 Buy = 구매
+ # Requires translation!
+Move unit out of city first = 
 Currently you have [amount] [stat]. = 현재 [amount] [stat] 보유중입니다.
 Would you like to purchase [constructionName] for [buildingGoldCost] [stat]? = [constructionName]을(를) [buildingGoldCost] [stat](으)로 구매하시겠습니까?
 You are buying a religious unit in a city that doesn't follow the religion you founded ([yourReligion]). This means that the unit is tied to that foreign religion ([majorityReligion]) and will be less useful. = 우리 [yourReligion]이(가) 아니라 외국의 [majorityReligion]을(를) 따르는 종교 유닛을 구매하게 됩니다.
@@ -1363,6 +1532,8 @@ Hurry Construction = 건설 가속
 Hurry Construction (+[productionAmount]⚙) = 생산 가속 (+[productionAmount]⚙)
 Spread Religion = 종교 전파
 Spread [religionName] = [religionName] 전파
+ # Requires translation!
+[civName]'s [unitName] has converted [cityName] to [religionName] = 
 Remove Heresy = 이단 색출
 Found a Religion = 종교 창시
 Enhance a Religion = 종교 강화
@@ -1429,6 +1600,8 @@ Somewhere around [city] = [city] 근처 어딘가
 Far away = 먼 곳
 Status = 상태
 Current turn = 현재 턴
+ # Requires translation!
+You = 
 Turn [turnNumber] = [turnNumber] 턴
 Location = 위치
 Unimproved = 미개발
@@ -1521,7 +1694,8 @@ Your civilization may not annex this city. = 도시를 합병할 수 없습니�
 Puppet = 괴뢰 도시
 Puppeted cities do not increase your tech or policy cost. = 괴뢰 도시는 연구에 필요한 과학량이나 정책에 필요한 문화량을 증가시키지는 않습니다.
 You have no control over the the production of puppeted cities. = 괴뢰 도시는 어떤 것을 생산할 지 선택할 수 없습니다.
-Puppeted cities also generate 25% less Gold and Science. = 또한 괴뢰 도시는 골드와 과학을 25% 적게 생성합니다.
+ # Requires translation!
+Puppeted cities also generate 25% less Science and Culture. = 
 A puppeted city can be annexed at any time. = 괴뢰 도시는 언제든지 합병할 수 있습니다.
 Liberate (city returns to [originalOwner]) = 해방 ([originalOwner]에게 반환됨)
 Liberating a city returns it to its original owner, giving you a massive relationship boost with them! = 해방된 도시는 원래 지도자에게 돌아가고 그들과의 관계가 크게 향상됩니다!
@@ -1536,12 +1710,16 @@ Keep it = 해방하지 않음
 Remove your troops in our border immediately! = 우리 영토에서 군대를 치워 주십시오!
 Sorry. = 미안하오.
 Never! = 싫소!
+ # Requires translation!
+Those lands were not yours to take. This has not gone unnoticed. = 
 
 Offer Declaration of Friendship ([30] turns) = 우호 선언 ([30] 턴 동안)
 My friend, shall we declare our friendship to the world? = 동지여, 우리의 유대를 세상에 알리지 않겠습니까?
 Sign Declaration of Friendship ([30] turns) = 우호 선언 ([30] 턴 동안)
 We are not interested. = 관심 없소.
 We have signed a Declaration of Friendship with [otherCiv]! = [otherCiv]와(과) 우호 선언을 체결했습니다!
+ # Requires translation!
+[civName] and [otherCivName] have signed a Defensive Pact! = 
 [otherCiv] has denied our Declaration of Friendship! = [otherCiv]이(가) 우호 선언을 거부했습니다!
 
 Basics = 기본
@@ -1569,7 +1747,8 @@ Bonus stats for improvement = 개발시 보너스
 Buildings that consume this resource = 이 자원을 소모하는 건물
 Buildings that provide this resource = 이 자원을 제공하는 건물
 Improvements that provide this resource = 이 자원을 제공하는 시설
-Buildings that require this resource worked near the city = 이 자원이 개발되어야 하는 건물
+ # Requires translation!
+Buildings that require this resource improved near the city = 
 Units that consume this resource = 소모하는 유닛
 Can be built on = 건설가능 지형:
  # Requires translation!
@@ -1658,6 +1837,8 @@ Start year: [comment] = 시작 연도: [comment]
 Pillaging this improvement yields [stats] = 해당 시설 약탈시 [stats] 획득
 Pillaging this improvement yields approximately [stats] = 해당 시설 약탈시 약 [stats] 획득
 Needs removal of terrain features to be built = 추가지형을 삭제해야만 건설가능
+ # Requires translation!
+Air Intercept Range: [amount] = 
 Unit type = 유닛 유형
 Units: = 유닛:
 Unit types = 유닛 유형
@@ -1742,7 +1923,7 @@ Enhancing religion = 종교 강화
 Enhanced religion = 강화된 종교
 
 # Espionage
-# As espionage is WIP, these strings are currently not shown in-game, 
+# As espionage is WIP, these strings are currently only shown in-game when the player opts in,
 # so feel free to not translate these strings for now
 
 Spy = 스파이
@@ -1753,6 +1934,8 @@ Move = 이동
 After an unknown civilization entered the [eraName], we have recruited [spyName] as a spy! = 알 수 없는 문명이 [eraName]에 진입하여 아군 스파이 [spyName]이(가) 고용되었습니다!
 We have recruited [spyName] as a spy! = 아군 스파이 [spyName]이(가) 고용되었습니다!
 Your spy [spyName] has leveled up! = 아군 스파이 [spyName]의 레벨이 올랐습니다!
+ # Requires translation!
+Your spy [spyName] has leveled up [amount] times! = 
 Your spy [spyName] cannot steal any more techs from [civName] as we've already researched all the technology they know! = 아군 스파이 [spyName]이(가) [civName]에서 훔칠 기술이 없습니다!
 
 # Stealing Technology defending civ
@@ -1766,13 +1949,35 @@ Your spy [spyName] stole the Technology [techName] from [cityName]! = 아군 스
 Your spy [spyName] was killed trying to steal Technology in [cityName]! = 아군 스파이 [spyName]이(가) [cityName]에서 기술을 훔치다 제거되었습니다!
 
 # Rigging elections
-A spy from [civName] tried to rig elections and was found and killed in [cityName] by [spyName]! = [civName]의 스파이가 [cityName]에서 선거를 조작하다 아군 [spyName]에 의해 제거되었습니다!
-Your spy [spyName] was killed trying to rig the election in [cityName]! = 아군 스파이 [spyName]이(가) [cityName]에서 선거를 조작하다 제거되었습니다!
 Your spy successfully rigged the election in [cityName]! = 아군 스파이가 [cityName]에서 선거를 조작하는 데 성공했습니다!
+ # Requires translation!
+Your spy lost the election in [cityStateName] to [civName]! = 
+ # Requires translation!
+The election in [cityStateName] were rigged by [civName]! = 
+ # Requires translation!
+Your spy lost the election in [cityName]! = 
+
+# City-Ctate Coups
+ # Requires translation!
+Stage Coup = 
+ # Requires translation!
+Your spy [spyName] successfully staged a coup in [cityName]! = 
+ # Requires translation!
+A spy from [civName] successfully staged a coup in our former ally [cityStateName]! = 
+ # Requires translation!
+A spy from [civName] successfully staged a coup in [cityStateName]! = 
+ # Requires translation!
+A spy from [civName] failed to stage a coup in our ally [cityStateName] and was killed! = 
+ # Requires translation!
+Our spy [spyName] failed to stage a coup in [cityStateName] and was killed! = 
+ # Requires translation!
+Do you want to stage a coup in [civName] with a [percent]% chance of success? = 
 
 # Spy fleeing city
 After the city of [cityName] was destroyed, your spy [spyName] has fled back to our hideout. = [cityName]이(가) 파괴되어 아군 스파이 [spyName]이(가) 은신처로 철수했습니다.
 After the city of [cityName] was conquered, your spy [spyName] has fled back to our hideout. = [cityName]이(가) 정복되어 아군 스파이 [spyName]이(가) 은신처로 철수했습니다.
+ # Requires translation!
+After the city of [cityName] was taken over, your spy [spyName] has fled back to our hideout. = 
 Due to the chaos ensuing in [cityName], your spy [spyName] has fled back to our hideout. = [cityName]에 계속된 혼란으로 아군 [spyName]이(가) 은신처로 철수했습니다.
 
 # Promotions
@@ -1810,7 +2015,8 @@ Enable multiplayer status button in singleplayer games = 싱글 화면에 멀티
 Update status of currently played game every: = 플레이 중인 게임 새로고침 간격
 In-game, update status of all games every: = 앱 실행 중 새로고침 간격
 Server address = 서버 주소
-Check connection to server = 서버와의 연결 확인
+ # Requires translation!
+Check connection = 
 Awaiting response... = 응답 대기중...
 Success! = 성공!
 Failed! = 실패!
@@ -1900,13 +2106,12 @@ Cannot be built on [tileFilter] tiles = [tileFilter]에 건설 불가
 Does not need removal of [feature] = [feature]에 건설 가능
 Gain a free [building] [cityFilter] = [cityFilter]에 [building] 무료로 제공
 
-# Uniques not found in JSON files
+# Countables
 
-Only available after [] turns = [] 턴 동안만 이용 가능
-This Unit upgrades for free = 유닛이 무료로 업그레이드됨
-[stats] when a city adopts this religion for the first time = 이 종교를 처음으로 믿은 도시에 [stats]
-Never destroyed when the city is captured = 도시가 점령당해도 파괴되지 않음
-Invisible to others = 탐지 불가
+ # Requires translation!
+Remaining [civFilter] Civilizations = 
+ # Requires translation!
+Owned [tileFilter] Tiles = 
 
 # Unused Resources
 
@@ -1981,10 +2186,10 @@ Provides a unique luxury = 고유 사치 자원 제공
 Military Units gifted from City-States start with [amount] XP = 군사적 도시 국가로부터 받는 군사 유닛의 경험치 [amount] XP
 Militaristic City-States grant units [amount] times as fast when you are at war with a common nation = 군사적 도시국가의 적과 전투시 해당 도시국가가 유닛을 제공하는 속도 [amount]배
 Gifts of Gold to City-States generate [relativeAmount]% more Influence = 도시 국가에 금을 선물하여 얻는 영향력 +[relativeAmount]%
-Can spend Gold to annex or puppet a City-State that has been your ally for [amount] turns. = [amount] 턴간 동맹을 유지한 도시 국가는 골드를 소모하여 합병하거나 괴뢰 도시로 만들 수 있음
+ # Requires translation!
+Can spend Gold to annex or puppet a City-State that has been your Ally for [amount] turns = 
 City-State territory always counts as friendly territory = 도시 국가 영토를 항상 우호적 영토로 취급
 Allied City-States will occasionally gift Great People = 동맹 관계인 도시 국가에서 가끔 위인을 선물함
-Will not be chosen for new games = 새 게임에서 선택되지 않음
 [relativeAmount]% City-State Influence degradation = 도시 국가에 대한 영향력 감소 속도 [relativeAmount]%
 Resting point for Influence with City-States is increased by [amount] = 모든 도시 국가의 영향력 정지점 +[amount]
 Allied City-States provide [stat] equal to [relativeAmount]% of what they produce for themselves = 동맹 관계인 도시 국가로부터 그들이 생산하는 [stat]의 [relativeAmount]%를 획득
@@ -2018,6 +2223,8 @@ Roads connect tiles across rivers = 도로가 강을 가로질러 연결됨
 [relativeAmount]% maintenance on road & railroads = 도로와 철도의 유지비 [relativeAmount]%
 No Maintenance costs for improvements in [tileFilter] tiles = [tileFilter]에 건설된 시설 유지비 없음
 [relativeAmount]% construction time for [improvementFilter] improvements = [improvementFilter] 시설 건설 시간 [relativeAmount]%
+ # Requires translation!
+Can build [improvementFilter] improvements at a [relativeAmount]% rate = 
 [relativeAmount]% maintenance cost for buildings [cityFilter] = [cityFilter]의 건물 유지비 [relativeAmount]%
 Remove [buildingFilter] [cityFilter] = [cityFilter]의 [buildingFilter] 건물 제거
 Sell [buildingFilter] buildings [cityFilter] = [cityFilter]의 [buildingFilter] 건물 판매
@@ -2025,11 +2232,13 @@ Sell [buildingFilter] buildings [cityFilter] = [cityFilter]의 [buildingFilter] 
 [relativeAmount]% Gold cost of acquiring tiles [cityFilter] = [cityFilter]에서 타일 구매에 필요한 골드 [relativeAmount]%
 Each city founded increases culture cost of policies [relativeAmount]% less than normal = 도시 수로 인한 정책 문화 요구치 -[relativeAmount]%
 [relativeAmount]% Culture cost of adopting new Policies = 정책 채택에 필요한 문화량 [relativeAmount]%
+ # Requires translation!
+Each city founded increases Science cost of Technologies [relativeAmount]% less than normal = 
+ # Requires translation!
+[relativeAmount]% Science cost of researching new Technologies = 
 [stats] for every known Natural Wonder = 자연 불가사의 발견시 추가로 [stats]
 [stats] for discovering a Natural Wonder (bonus enhanced to [stats2] if first to discover it) = 자연 불가사의 발견시 [stats] 획득, 최초 발견시 [stats2] 획득
 [relativeAmount]% Great Person generation [cityFilter] = [cityFilter]의 위인 출현 속도 [relativeAmount]%
-Provides a sum of gold each time you spend a Great Person = 위인 소모시 일시불 골드 제공
-[stats] whenever a Great Person is expended = 위인 소모시 [stats]
 [relativeAmount]% Gold from Great Merchant trade missions = 위대한 상인이 무역 임무에서 얻는 골드 [relativeAmount]%
 Great General provides double combat bonus = 위대한 장군이 제공하는 전투력 보너스 두 배
 Receive a free Great Person at the end of every [comment] (every 394 years), after researching [tech]. Each bonus person can only be chosen once. = [tech] 연구 후 [comment](394년)이 끝날 때마다 위인이 무료로 출현, 각 위인은 한 번씩만 선택 가능
@@ -2043,9 +2252,12 @@ Enables embarkation for land units = 지상 유닛이 승선할 수 있음
 Enables [mapUnitFilter] units to enter ocean tiles = [mapUnitFilter] 유닛이 대양 타일에 진입 
 Land units may cross [terrainName] tiles after the first [baseUnitFilter] is earned = 첫 [baseUnitFilter] 획득후 지상 유닛이 [terrainName]에 출입 가능
 Enemy [mapUnitFilter] units must spend [amount] extra movement points when inside your territory = 적 [mapUnitFilter] 유닛이 아군 영토에서 이동시 [amount] 행동력을 추가로 소모
-New [baseUnitFilter] units start with [amount] Experience [cityFilter] = [cityFilter]에서 새로 생산된 [baseUnitFilter] 유닛 +[amount] XP
+ # Requires translation!
+New [baseUnitFilter] units start with [amount] XP [cityFilter] = 
 All newly-trained [baseUnitFilter] units [cityFilter] receive the [promotion] promotion = [cityFilter]에서 새로 생산된 [baseUnitFilter] 유닛이 [promotion] 승급을 얻음
 [mapUnitFilter] Units adjacent to this city heal [amount] HP per turn when healing = 이 도시에 인접한 [mapUnitFilter] 유닛이 회복시 추가로 [amount] HP 회복
+ # Requires translation!
+[relativeAmount]% XP required for promotions = 
 [relativeAmount]% City Strength from defensive buildings = 방어 건물로 얻는 도시 전투력 [relativeAmount]%
 [relativeAmount]% Strength for cities = 도시 전투력 [relativeAmount]%
 Costs [amount] [stockpiledResource] = [stockpiledResource] [amount] 소모
@@ -2066,13 +2278,15 @@ When defeating a [mapUnitFilter] unit, earn [amount] Gold and recruit it = [mapU
 Starting in this era disables religion = 이 시대에서 시작하면 종교가 비활성화됩니다.
 May choose [amount] additional [beliefType] beliefs when [foundingOrEnhancing] a religion = 종교 [foundingOrEnhancing]시 [amount]개의 추가 [beliefType] 교리 선택 가능
 May choose [amount] additional belief(s) of any type when [foundingOrEnhancing] a religion = 종교를 [foundingOrEnhancing]하면 추가 교리 [amount]개 선택 가능
-[stats] when a city adopts this religion for the first time (modified by game speed) = 이 종교를 처음으로 믿은 도시 하나당 [stats], 게임 속도에 따라 조절됨
+[stats] when a city adopts this religion for the first time = 이 종교를 처음으로 믿은 도시에 [stats]
 [relativeAmount]% Natural religion spread [cityFilter] = [cityFilter]에서 종교 전파 속도 [relativeAmount]%
 Religion naturally spreads to cities [amount] tiles away = 종교 전파 거리 [amount]
 May not generate great prophet equivalents naturally = 위대한 선지자를 탄생시킬 수 없습니다.
 [relativeAmount]% Faith cost of generating Great Prophet equivalents = 위대한 선지자 출현에 필요한 신앙 [relativeAmount]%
 [relativeAmount]% spy effectiveness [cityFilter] = [cityFilter]에서 아군 스파이 효율 [relativeAmount]%
 [relativeAmount]% enemy spy effectiveness [cityFilter] = [cityFilter]에서 적 스파이 효율 [relativeAmount]%
+ # Requires translation!
+New spies start with [amount] level(s) = 
 Starting tech = 기술 개시
 Starts with [tech] = [tech] 기술을 가지고 시작함
 Starts with [policy] adopted = [policy] 채택한 상태로 시작
@@ -2115,12 +2329,15 @@ Indicates the capital city = 수도를 나타내는 건물
 Moves to new capital when capital changes = 수도가 이전되면 같이 이동함
 Provides 1 extra copy of each improved luxury resource near this City = 도시 주변에 개발된 각 사치 자원의 개수 +1
 Destroyed when the city is captured = 도시가 점령당하면 파괴됨
+Never destroyed when the city is captured = 도시가 점령당해도 파괴되지 않음
 Doubles Gold given to enemy if city is captured = 도시가 점령당했을 때 적이 얻는 골드 2배
 Remove extra unhappiness from annexed cities = 합병된 도시에서 발생하는 추가 불행 제거
 Connects trade routes over water = 바다를 통해 도시 연결
 Automatically built in all cities where it is buildable = 생산 가능한 모든 도시에서 자동 생산
 Creates a [improvementName] improvement on a specific tile = [improvementName] 시설을 적절한 타일에 건설
 Founds a new city = 새로운 도시를 건설함
+ # Requires translation!
+Founds a new puppet city = 
 Can instantly construct a [improvementFilter] improvement = [improvementFilter] 즉시 건설 가능
 May create improvements on water resources = 해양 자원에 시설 건설 가능
 Can build [improvementFilter/terrainFilter] improvements on tiles = [improvementFilter/terrainFilter] 건설 가능
@@ -2142,7 +2359,7 @@ Can transform to [unit] = [unit] (으)로 변신 가능
 [relativeAmount]% Strength = 전투력 [relativeAmount]%
 [relativeAmount]% Strength decreasing with distance from the capital = 수도 근처에서 전투력 [relativeAmount]%, 수도와 멀어질수록 감소함
 [relativeAmount]% to Flank Attack bonuses = 측면 공격 보너스 [relativeAmount]%
-[relativeAmount]% Strength for enemy [combatantFilter] units in adjacent [tileFilter] tiles = 주변 [tileFilter] 타일의 적 [combatantFilter] 유닛 전투력 [relativeAmount]%
+[relativeAmount]% Strength for enemy [mapUnitFilter] units in adjacent [tileFilter] tiles = 주변 [tileFilter] 타일의 적 [mapUnitFilter] 유닛 전투력 [relativeAmount]%
 [relativeAmount]% Strength when stacked with [mapUnitFilter] = [mapUnitFilter]와(과) 겹쳤을 때 전투력 [relativeAmount]%
 [relativeAmount]% Strength bonus for [mapUnitFilter] units within [amount] tiles = [amount]타일 내의 [mapUnitFilter] 유닛 전투력 [relativeAmount]%
 [amount] additional attacks per turn = 턴당 공격 횟수 [amount]
@@ -2166,9 +2383,11 @@ Ranged attacks may be performed over obstacles = 장애물 너머로 공격 가�
 Nuclear weapon of Strength [amount] = 핵무기 위력 [amount]
 No defensive terrain bonus = 지형에 따른 방어 보너스 없음
 No defensive terrain penalty = 지형 방어 페널티 없음
-Damage is ignored when determining unit Strength = 유닛이 피해를 입어도 최대 전투력을 유지
+ # Requires translation!
+No damage penalty for wounded units = 
 Uncapturable = 포획 불가
-May withdraw before melee ([amount]%) = 근접 공격을 받았을 때 철수할 확률 [amount]%
+ # Requires translation!
+Withdraws before melee combat = 
 Unable to capture cities = 도시 점령 불가
 Unable to pillage tiles = 시설 약탈 불가
 No movement cost to pillage = 약탈시 행동력 소모 없음
@@ -2181,7 +2400,6 @@ Heals [amount] damage if it kills a unit = 유닛 처치시 [amount] HP 회복
 Can only heal by pillaging = 약탈 이외에는 회복 불가
 Unit will heal every turn, even if it performs an action = 행동 여부와 무관하게 매 턴 회복
 All adjacent units heal [amount] HP when healing = 인접한 유닛이 회복시 추가로 [amount] HP 회복
-Defense bonus when embarked = 승선시 방어력 보너스
 No Sight = 시야 없음
 Can see over obstacles = 시야가 지형을 무시함
 Can carry [amount] [mapUnitFilter] units = [mapUnitFilter] 유닛 [amount]기 수송 가능
@@ -2196,15 +2414,16 @@ Cannot intercept [mapUnitFilter] units = [mapUnitFilter] 유닛 요격 불가
 [relativeAmount]% Strength when performing Air Sweep = 대공 무력화 시 전투력 [relativeAmount]%
 [relativeAmount]% maintenance costs = 유지비 [relativeAmount]%
 [relativeAmount]% Gold cost of upgrading = 업그레이드에 필요한 골드 [relativeAmount]%
-Earn [amount]% of the damage done to [combatantFilter] units as [civWideStat] = [combatantFilter] 공격시 피해의 [amount]%에 해당하는 [civWideStat] 획득
-Upon capturing a city, receive [amount] times its [stat] production as [civWideStat] immediately = 도시 점령시 도시가 생산하던 [stat]의 [amount]배에 해당하는 [civWideStat] 획득
-Earn [amount]% of killed [mapUnitFilter] unit's [costOrStrength] as [civWideStat] = 적 [mapUnitFilter] 유닛 처치시 [costOrStrength]의 [amount]%에 해당하는 [civWideStat] 획득
-Earn [amount]% of [mapUnitFilter] unit's [costOrStrength] as [civWideStat] when killed within 4 tiles of a city following this religion = 이 종교를 믿는 도시의 4타일 내에서 적 [mapUnitFilter] 유닛 처치시 [costOrStrength]의 [amount]% 에 해당하는 [civWideStat] 획득
+Earn [amount]% of the damage done to [combatantFilter] units as [stockpile] = [combatantFilter] 공격시 피해의 [amount]%에 해당하는 [stockpile] 획득
+Upon capturing a city, receive [amount] times its [stat] production as [stockpile] immediately = 도시 점령시 도시가 생산하던 [stat]의 [amount]배에 해당하는 [stockpile] 획득
+Earn [amount]% of killed [mapUnitFilter] unit's [costOrStrength] as [stockpile] = 적 [mapUnitFilter] 유닛 처치시 [costOrStrength]의 [amount]%에 해당하는 [stockpile] 획득
+Earn [amount]% of [mapUnitFilter] unit's [costOrStrength] as [stockpile] when killed within 4 tiles of a city following this religion = 이 종교를 믿는 도시의 4타일 내에서 적 [mapUnitFilter] 유닛 처치시 [costOrStrength]의 [amount]% 에 해당하는 [stockpile] 획득
 May capture killed [mapUnitFilter] units = [mapUnitFilter] 유닛 처치시 포획 가능
 [amount] XP gained from combat = 전투로 [amount] XP 획득
 [relativeAmount]% XP gained from combat = 전투로 얻는 XP [relativeAmount]%
 Can be earned through combat = 전투로 획득 가능
 [greatPerson] is earned [relativeAmount]% faster = [greatPerson] 출현 속도 +[relativeAmount]%
+Invisible to others = 탐지 불가
 Invisible to non-adjacent units = 인접한 유닛이 없으면 보이지 않음
 Can see invisible [mapUnitFilter] units = [mapUnitFilter] 유닛 탐지 가능
 May upgrade to [unit] through ruins-like effects = 고대 유적 등을 통해서 [unit](으)로 업그레이드 가능
@@ -2237,6 +2456,8 @@ for all movement = 모든 행동에
 requires [amount] movement = [amount] 행동력 필요
 costs [stats] stats = [stats] 소모
 costs [amount] [stockpiledResource] = [amount] [stockpiledResource] 소모
+ # Requires translation!
+removing the [promotion] promotion/status = 
 once = 한 번
 [amount] times = [amount] 번
 [amount] additional time(s) = [amount] 번 더
@@ -2274,21 +2495,44 @@ Costs [amount] [stat] per turn = 턴당 -[amount] [stat]
 Adjacent enemy units ending their turn take [amount] damage = 주변에서 턴을 마친 적 유닛에게 [amount] HP 피해
 Great Improvement = 위인 시설
 Provides a random bonus when entered = 타일 진입시 무작위 보너스 제공
-Constructing it will take over the tiles around it and assign them to your closest city = 건설시 주위 타일을 점령하여 가장 가까운 아군 도시에 할당함
 Unpillagable = 약탈 불가
+ # Requires translation!
+Destroyed when pillaged = 
 Irremovable = 제거 불가
-Will be replaced by automated workers = 자동화한 노동자가 다른 시설로 대체할 수 있음
+ # Requires translation!
+Will not be replaced by automated units = 
+ # Requires translation!
+Improves [resourceFilter] resource in this tile = 
  # Requires translation!
 Will not build [baseUnitFilter/buildingFilter] = 
-for [amount] turns = [amount] 턴 동안
-with [amount]% chance = [amount]% 확률로
 every [positiveAmount] turns = 매 [positiveAmount] 턴마다
-before [amount] turns = [amount] 턴 전
-after [amount] turns = [amount] 턴 후
-for [civFilter] = [civFilter]에
+ # Requires translation!
+before turn number [amount] = 
+ # Requires translation!
+after turn number [amount] = 
+on [speed] game speed = 게임 속도 [speed]일 때
+ # Requires translation!
+on [difficulty] difficulty = 
+ # Requires translation!
+when [victoryType] Victory is enabled = 
+ # Requires translation!
+when [victoryType] Victory is disabled = 
+ # Requires translation!
+when religion is enabled = 
+ # Requires translation!
+when religion is disabled = 
+ # Requires translation!
+when espionage is enabled = 
+ # Requires translation!
+when espionage is disabled = 
+with [amount]% chance = [amount]% 확률로
+ # Requires translation!
+for [civFilter] Civilizations = 
 when at war = 전쟁 중에
 when not at war = 전쟁이 없을 때
 during a Golden Age = 황금기 동안
+ # Requires translation!
+when not in a Golden Age = 
 during We Love The King Day = 국왕 경축일 동안
 while the empire is happy = 행복 상태일 때
 when between [amount] and [amount2] Happiness = 행복도 [amount] ~ [amount2] 사이일 때
@@ -2298,11 +2542,10 @@ during the [era] = [era] 동안
 before the [era] = [era] 전까지
 starting from the [era] = [era]부터
 if starting in the [era] = [era] 시대로 시작시
-on [speed] game speed = 게임 속도 [speed]일 때
 if no other Civilization has researched this = 이 기술을 연구한 다른 문명이 없을 때
-after discovering [tech] = [tech] 연구 후
-before discovering [tech] = [tech] 연구 전
-while researching [tech] = [tech] 연구 중
+after discovering [techFilter] = [techFilter] 연구 후
+before discovering [techFilter] = [techFilter] 연구 전
+while researching [techFilter] = [techFilter] 연구 중
 if no other Civilization has adopted this = 이 정책을 채택한 다른 문명이 없을 때
 after adopting [policy/belief] = [policy/belief] 채택 후
 before adopting [policy/belief] = [policy/belief] 채택 전
@@ -2314,6 +2557,8 @@ before enhancing a religion = 종교 강화 전
 after enhancing a religion = 종교 강화 후
 after generating a Great Prophet = 위대한 선지자 출현 후
 if [buildingFilter] is constructed = [buildingFilter]을(를) 건설했을 때
+ # Requires translation!
+if [buildingFilter] is not constructed = 
 if [buildingFilter] is constructed in all [cityFilter] cities = 모든 [cityFilter]에 [buildingFilter]을(를) 건설했을 때
 if [buildingFilter] is constructed in at least [positiveAmount] of [cityFilter] cities = 최소 [positiveAmount] 개의 [cityFilter]에 [buildingFilter]을(를) 건설했을 때
 if [buildingFilter] is constructed by anybody = 누구든 [buildingFilter]을(를) 건설했을 때
@@ -2322,12 +2567,13 @@ without [resource] = [resource]이(가) 없는
 when above [amount] [stat/resource] = [stat/resource]이(가) [amount] 초과 시
 when below [amount] [stat/resource] = [stat/resource]이(가) [amount] 미만 시
 when between [amount] and [amount2] [stat/resource] = [stat/resource]이(가) [amount] ~ [amount2] 범위일 때
-when above [amount] [stat/resource] (modified by game speed) = [stat/resource] [amount] 초과 시 (게임 속도에 따라 조절됨)
-when below [amount] [stat/resource] (modified by game speed) = [stat/resource] [amount] 미만 시 (게임 속도에 따라 조절됨)
-when between [amount] and [amount2] [stat/resource] (modified by game speed) = [stat/resource]이(가) [amount] ~ [amount2] 범위일 때 (게임 속도에 따라 조절됨)
 in this city = 이 도시
 in [cityFilter] cities = [cityFilter] 도시
 in cities connected to the capital = 수도에 연결된 도시
+ # Requires translation!
+in cities with a [religionFilter] religion = 
+ # Requires translation!
+in cities not following a [religionFilter] religion = 
 in cities with a major religion = 주요 종교를 믿는 도시
 in cities with an enhanced religion = 강화된 종교를 믿는 도시
 in cities following our religion = 우리 종교를 따르는 도시
@@ -2335,6 +2581,10 @@ in cities with a [buildingFilter] = [buildingFilter]이(가) 건설된 도시
 in cities without a [buildingFilter] = [buildingFilter]이(가) 건설되지 않은 도시
 in cities with at least [amount] [populationFilter] = [amount] [populationFilter] 이상의 도시에서
 in cities with [amount] [populationFilter] = [populationFilter] [amount] 명 이상인 도시
+ # Requires translation!
+in cities with between [amount] and [amount2] [populationFilter] = 
+ # Requires translation!
+in cities with less than [amount] [populationFilter] = 
 with a garrison = 유닛 주둔중
 for [mapUnitFilter] units = [mapUnitFilter] 유닛에
 when [mapUnitFilter] = [mapUnitFilter]일 때
@@ -2354,15 +2604,18 @@ if it hasn't used other actions yet = 행동 횟수를 소모하지 않았다면
 with [amount] to [amount2] neighboring [tileFilter] tiles = 인접한 [tileFilter] 타일이 [amount]~[amount2]개 있는
 in [tileFilter] tiles = [tileFilter] 타일
 in tiles without [tileFilter] = [tileFilter]이 없는 타일
-in tiles adjacent to [tileFilter] = [tileFilter]에 인접한 타일
-in tiles not adjacent to [tileFilter] = [tileFilter]에 인접하지 않은 타일
 within [amount] tiles of a [tileFilter] = [tileFilter] 주변 [amount] 타일 내에서
+ # Requires translation!
+in tiles adjacent to [tileFilter] tiles = 
+ # Requires translation!
+in tiles not adjacent to [tileFilter] tiles = 
 on water maps = 해양 타일
 in [regionType] Regions = [regionType] 지역
 in all except [regionType] Regions = [regionType] 지형이 아닌 모든 타일
 when number of [countable] is equal to [countable2] = [countable]의 수가 [countable2]와(과) 같을 때
 when number of [countable] is different than [countable2] = [countable]의 수가 [countable2]와(과) 다를 때
-when number of [countable] is greater than [countable2] = [countable]의 수가 [countable2]보다 클 때
+ # Requires translation!
+when number of [countable] is more than [countable2] = 
 when number of [countable] is less than [countable2] = [countable]의 수가 [countable2]보다 작을 때
 when number of [countable] is between [countable2] and [countable3] = [countable]의 수가 [countable2]와(과) [countable3] 사이일 때
 Free [unit] appears = 무료 [unit] 출현
@@ -2378,6 +2631,8 @@ Free Great Person = 원하는 위인 1명이 무료로 출현
 Discover [tech] = [tech] 연구
 Adopt [policy] = [policy] 채택
 Remove [policy] = [policy] 제거
+ # Requires translation!
+Remove [policy] and refund [amount]% of its cost = 
 Free Technology = 무료 기술 획득
 [positiveAmount] Free Technologies = 무료 기술 [positiveAmount]개 획득
 [positiveAmount] free random researchable Tech(s) from the [era] = [era]의 연구 가능한 임의의 기술 중 [positiveAmount]개 무료
@@ -2386,29 +2641,51 @@ Gain a free [beliefType] belief = 무료 [beliefType] 교리 획득
 Triggers voting for the Diplomatic Victory = 외교 승리를 위한 투표가 시작됨
 Instantly consumes [positiveAmount] [stockpiledResource] = [positiveAmount] [stockpiledResource] 즉시 소모
 Instantly provides [positiveAmount] [stockpiledResource] = [positiveAmount] [stockpiledResource] 즉시 제공
+ # Requires translation!
+Instantly gain [amount] [stockpile] = 
 Gain [amount] [stat] = [amount] [stat] 획득
-Gain [amount] [stat] (modified by game speed) = [amount] [stat] 획득 (게임 속도에 따라 조절됨)
 Gain [amount]-[amount2] [stat] = [amount]~[amount2] [stat] 획득
 Gain enough Faith for a Pantheon = 종교관 선택에 필요한 신앙 획득
 Gain enough Faith for [amount]% of a Great Prophet = 위대한 선지자 획득에 필요한 신앙의 [amount]% 획득
-Reveal up to [positiveAmount/'all'] [tileFilter] within a [amount] tile radius = [amount]타일 반경의 [positiveAmount/'all'] [tileFilter] 타일을 드러냄
+ # Requires translation!
+Gain control over [tileFilter] tiles in a [amount]-tile radius = 
+Reveal up to [positiveAmount/'all'] [tileFilter] within a [positiveAmount] tile radius = [positiveAmount]타일 반경의 [positiveAmount/'all'] [tileFilter] 타일을 드러냄
 From a randomly chosen tile [positiveAmount] tiles away from the ruins, reveal tiles up to [positiveAmount2] tiles away with [positiveAmount3]% chance = 고대 유적에서 [positiveAmount]타일 떨어진 임의의 지점을 기준으로 [positiveAmount2]타일 반경을 [positiveAmount3]% 확률로 드러냄
 Triggers the following global alert: [comment] = 전 세계에 알림: [comment]
 Every major Civilization gains a spy once a civilization enters this era = 이 시대에 진입한 문명이 있으면 모든 주요 문명이 스파이를 하나씩 얻습니다.
-Promotes all spies = 모든 스파이 승급
+ # Requires translation!
+Promotes all spies [amount] time(s) = 
 Gain an extra spy = 추가 스파이 획득
-Heal this unit by [positiveAmount] HP = 유닛 [positiveAmount] HP 회복
-This Unit takes [positiveAmount] damage = 유닛이 [positiveAmount] 피해를 입음
-This Unit gains [amount] XP = 유닛이 [amount] XP 획득
-This Unit upgrades for free including special upgrades = 유닛 업그레이드 무료
-This Unit gains the [promotion] promotion = 유닛이 [promotion] 승급 획득
-This Unit loses the [promotion] promotion = 유닛이 [promotion] 승급 상실
 Doing so will consume this opportunity to choose a Promotion = 선택 시 이번 승급 기회를 잃어버림
 This Promotion is free = 무료 승급
 Turn this tile into a [terrainName] tile = 이 타일을 [terrainName] 타일로 변경
 Provides the cheapest [stat] building in your first [positiveAmount] cities for free = 최초 [positiveAmount]개 도시에 가장 저렴한 [stat] 건물 무료로 제공
 Provides a [buildingName] in your first [positiveAmount] cities for free = 최초 [positiveAmount]개 도시에 [buildingName] 무료로 제공
 Triggers a [event] event = [event] 촉발
+ # Requires translation!
+[unitTriggerTarget] heals [positiveAmount] HP = 
+ # Requires translation!
+[unitTriggerTarget] takes [positiveAmount] damage = 
+ # Requires translation!
+[unitTriggerTarget] gains [amount] XP = 
+ # Requires translation!
+[unitTriggerTarget] upgrades for free = 
+ # Requires translation!
+[unitTriggerTarget] upgrades for free including special upgrades = 
+ # Requires translation!
+[unitTriggerTarget] gains the [promotion] promotion = 
+ # Requires translation!
+[unitTriggerTarget] loses the [promotion] promotion = 
+ # Requires translation!
+[unitTriggerTarget] gains [amount] movement = 
+ # Requires translation!
+[unitTriggerTarget] loses [amount] movement = 
+ # Requires translation!
+[unitTriggerTarget] gains the [promotion] status for [positiveAmount] turn(s) = 
+ # Requires translation!
+[unitTriggerTarget] loses the [promotion] status = 
+ # Requires translation!
+[unitTriggerTarget] is destroyed = 
 upon discovering [techFilter] technology = [techFilter] 연구 시
 upon entering the [era] = [era] 진입 시
 upon entering a new era = 새 시대 진입 시
@@ -2425,16 +2702,42 @@ upon constructing [buildingFilter] = [buildingFilter] 건설 시
 upon constructing [buildingFilter] [cityFilter] = [cityFilter]에 [buildingFilter] 건설 시
 upon gaining a [baseUnitFilter] unit = [baseUnitFilter] 유닛 획득시
 upon turn end = 턴이 끝날 때
+ # Requires translation!
+upon turn start = 
 upon founding a Pantheon = 종교관 선택 시
 upon founding a Religion = 종교 창시 시
 upon enhancing a Religion = 종교 강화 시
+ # Requires translation!
+upon damaging a [mapUnitFilter] unit = 
 upon defeating a [mapUnitFilter] unit = [mapUnitFilter] 유닛 처치 시
+ # Requires translation!
+upon expending a [mapUnitFilter] unit = 
 upon being defeated = 사망 시
 upon being promoted = 승급 시
+ # Requires translation!
+upon gaining the [promotion] promotion = 
+ # Requires translation!
+upon losing the [promotion] promotion = 
+ # Requires translation!
+upon gaining the [promotion] status = 
+ # Requires translation!
+upon losing the [promotion] status = 
 upon losing at least [amount] HP in a single attack = 공격 1회에 [amount] HP 이상의 피해를 입을 시
 upon ending a turn in a [tileFilter] tile = [tileFilter] 타일에서 턴을 마칠 시
 upon discovering a [tileFilter] tile = [tileFilter] 타일 발견 시
+ # Requires translation!
+upon entering a [tileFilter] tile = 
+for [amount] turns = [amount] 턴 동안
 hidden from users = 유저에게 보이지 않음
+Will not be chosen for new games = 새 게임에서 선택되지 않음
+ # Requires translation!
+for every [countable] = 
+ # Requires translation!
+for every adjacent [tileFilter] = 
+ # Requires translation!
+for every [amount] [countable] = 
+ # Requires translation!
+(modified by game speed) = 
  # Requires translation!
 Comment [comment] = 
 Diplomatic relationships cannot change = 외교 관계가 변하지 않음
@@ -2442,6 +2745,8 @@ Can convert gold to science with sliders = 골드를 과학으로 변환할 수 
 Allow City States to spawn with additional units = 도시 국가 추가 유닛 생성
 Can trade civilization introductions for [positiveAmount] Gold = 거래에서 [positiveAmount] 골드로 문명 소개 가능
 Disable religion = 종교 비활성화
+ # Requires translation!
+Can only start games from the starting era = 
 Allow raze capital = 수도 파괴 허용
 Allow raze holy city = 성도 파괴 허용
 Mod is incompatible with [modFilter] = 모드가 [modFilter]에 호환되지 않음
@@ -2449,6 +2754,22 @@ Mod requires [modFilter] = 모드에 [modFilter]이(가) 필요함
 Should only be used as permanent audiovisual mod = 시청각모드로만 사용 가능함
 Can be used as permanent audiovisual mod = 시청각모드로 사용 가능
 Cannot be used as permanent audiovisual mod = 시청각모드로 사용 불가
+ # Requires translation!
+Mod preselects map [comment] = 
+ # Requires translation!
+if [modFilter] is enabled = 
+ # Requires translation!
+if [modFilter] is not enabled = 
+
+######### countable ###########
+
+ # Requires translation!
+year = 
+
+######### 'all' ###########
+
+All = 모든
+all = 모든
 
 ######### combatantFilter ###########
 
@@ -2473,14 +2794,27 @@ non-air = 공중 유닛이 아닌
 Nuclear Weapon = 핵무기
 Great Person = 위인
 relevant = 해당되는 모든
-All = 모든
-all = 모든
 
 ######### Unit Type Filters ###########
 
 Land = 지상
 Water = 해상
 Air = 공중
+
+######### civWideStat ###########
+
+
+######### civFilter ###########
+
+ # Requires translation!
+AI player = 
+ # Requires translation!
+Human player = 
+
+######### nationFilter ###########
+
+ # Requires translation!
+Major = 
 
 ######### City filters ###########
 
@@ -2516,6 +2850,16 @@ Holy = 성스러운
 in City-State cities = 도시 국가의 도시
 in cities following this religion = 이 종교를 믿는 도시
 
+######### buildingFilter ###########
+
+Building = 건물
+ # Requires translation!
+National = 
+ # Requires translation!
+World Wonder = 
+ # Requires translation!
+World = 
+
 ######### Population Filters ###########
 
 Unemployed = 실업자
@@ -2545,7 +2889,16 @@ Bonus resource = 보너스 자원
 
 unimproved = 개발되지 않은
 improved = 개발된
+ # Requires translation!
+worked = 
+ # Requires translation!
+pillaged = 
 All Road = 모든 도로
+
+######### simpleTerrain ###########
+
+ # Requires translation!
+Elevated = 
 
 ######### Region Types ###########
 
@@ -2561,6 +2914,30 @@ Desirable = 매력적인
 Improvement = 시설
 Great = 위인
 
+######### resourceFilter ###########
+
+ # Requires translation!
+any = 
+
+######### beliefType ###########
+
+Founder = 창시자
+Follower = 신도
+Enhancer = 강화
+ # Requires translation!
+Any = 
+
+######### religionFilter ###########
+
+ # Requires translation!
+major = 
+ # Requires translation!
+enhanced = 
+ # Requires translation!
+foreign = 
+ # Requires translation!
+enemy = 
+
 ######### Prophet Action Filters ###########
 
 founding = 창시
@@ -2569,6 +2946,19 @@ enhancing = 강화
 ######### techFilter ###########
 
 
+######### policyFilter ###########
+
+
+######### costOrStrength ###########
+
+
+######### unitTriggerTarget ###########
+
+ # Requires translation!
+This Unit = 
+ # Requires translation!
+Target Unit = 
+
 ######### Unique Specials ###########
 
 Our influence with City-States has started dropping faster! = 도시국가에 대한 영향력이 더 빨리 감소합니다!
@@ -2576,6 +2966,8 @@ all healing effects doubled = 모든 회복 효과 2배
 The Spaceship = 우주선
 Units ending their turn on [Mountain] tiles take [50] damage = [Mountain]에서 턴을 마친 유닛에게 [50] HP 피해
 Maya Long Count calendar cycle = 마야 장기력
+ # Requires translation!
+Meet another civilization = 
 Triggerable = 촉발 가능
 UnitTriggerable = 촉발 불가
 Global = 전역
@@ -2585,7 +2977,6 @@ Tech = 기술
 Policy = 정책
 FounderBelief = 창시자 교리
 FollowerBelief = 신도 교리
-Building = 건물
 UnitAction = 유닛 행동
 Unit = 유닛
 UnitType = 유닛 
@@ -2596,6 +2987,10 @@ Speed = 속도
 Tutorial = 튜토리얼
 CityState = 도시 국가
 ModOptions = 모드 설정
+ # Requires translation!
+Event = 
+ # Requires translation!
+EventChoice = 
 Conditional = 조건문
 TriggerCondition = 촉발조건
 UnitTriggerCondition = 유닛촉발조건
@@ -2609,8 +3004,11 @@ Establishing Network = 정보망 구축
 Observing City = 도시 관찰
 Stealing Tech = 기술 훔치기
 Rigging Elections = 선거 조작
-Conducting Counter-intelligence = 방첩 활동
-Dead = 사망함
+ # Requires translation!
+Coup = 쿠데타
+ # Requires translation!
+Counter-intelligence = 방첩
+Dead = 사망
 
 
 #################### Lines from diplomatic modifiers #######################
@@ -2625,14 +3023,24 @@ Your so-called 'defensive pact' is worth nothing. = 당신의 '방위 협정' �
 You have publicly denounced us! = 우리를 공개적으로 비난하다니!
 You have denounced our allies = 우리 동맹을 비난하다니!
 You refused to stop settling cities near us = 우리 근처에 도시를 건설하지 말라는 요구를 거절했소.
+ # Requires translation!
+You refused to stop spreading religion to us = 
 You betrayed your promise to not settle cities near us = 우리 근처에 도시를 건설하지 않겠다는 약속을 배신했소.
+ # Requires translation!
+You betrayed your promise to not spread your religion to us = 
 Your arrogant demands are in bad taste = 이치에 맞지 않는 요구를 하고 있소.
 Your use of nuclear weapons is disgusting! = 핵무기 사용을 그만하는 것이 좋지 않겠소!
 You have stolen our lands! = 당신은 우리의 땅을 빼앗았소!
 You destroyed City-States that were under our protection! = 우리가 보호하는 도시 국가를 점령하다니!
 You attacked City-States that were under our protection! = 당신은 우리가 보호하는 도시 국가를 공격했소!
+ # Requires translation!
+You attacked our allied City-States! = 
 You demanded tribute from City-States that were under our protection! = 당신은 우리가 보호하는 도시 국가에게 공물을 요구했소!
 You sided with a City-State over us = 우리보다 도시국가를 우선했군요.
+ # Requires translation!
+You spied on us! = 
+ # Requires translation!
+You took the alliance we had with a City-State = 
 Years of peace have strengthened our relations. = 오래전부터 지속된 평화가 더 강한 관계를 만드는군요.
 Our mutual military struggle brings us closer together. = 공동의 적에 맞선다는 사실이 우리의 관계를 더 강하게 하는군요.
 We applaud your liberation of conquered cities! = 정복한 도시를 해방한 것에 찬사를 보냅니다.
@@ -2643,6 +3051,8 @@ You have declared a defensive pact with our allies = 우리의 동맹과 방위 
 You have denounced our enemies = 우리의 적을 비난하셨더군요. 우리도 같은 생각이랍니다.
 Our open borders have brought us closer together. = 국경을 열어놓음으로서 서로 더 가까워지는 기분이 드는군요.
 You fulfilled your promise to stop settling cities near us! = 우리 근처에 도시를 건설하지 않겠다는 약속을 지켰군요.
+ # Requires translation!
+You fulfilled your promise to stop spreading religion to us! = 
 You gave us units! = 우리에게 유닛을 선물했군요!
 We appreciate your gifts = 선물에 감사드립니다.
 You returned captured units to us = 사로잡힌 유닛을 돌려주셨군요.
@@ -2675,6 +3085,10 @@ Empire Overview =
 Music Player = 
  # Requires translation!
 Developer Console = 
+ # Requires translation!
+Idle Prev = 
+ # Requires translation!
+Idle Next = 
  # Requires translation!
 Empire Overview Trades = 
  # Requires translation!
@@ -2748,13 +3162,13 @@ Specialist Detail = 전문가 세부정보
 Religion Detail = 종교 세부정보
 Buildings Detail = 건물 세부정보
 Default Focus = 기본 설정
-[Food] Focus = [Food] 위주
  # Requires translation!
 Open the Search Dialog = 
  # Requires translation!
 Confirm Dialog = 
 Cancel Dialog = 대화 취소
 Upgrade All = 모두 업그레이드
+[stat] Focus = [stat] 위주
 
 #################### Lines from Buildings from Civ V - Vanilla ####################
 
@@ -2995,8 +3409,8 @@ Utopia Project = 유토피아 프로젝트
 #################### Lines from Difficulties from Civ V - Vanilla ####################
 
 Settler = 개척자
-
 Chieftain = 족장
+
 
 Warlord = 장군
 
@@ -3575,7 +3989,7 @@ Palo Alto = 팔로 알토
 Centralia = 센트렐리아
 Spokane = 스포캔
 Jacksonville = 잭슨빌
-Svannah = 사바나
+Savannah = 사바나
 Charleston = 찰스턴
 San Antonio = 샌안토니오
 Anchorage = 앵커리지
@@ -3980,7 +4394,7 @@ Come, let our people feast together! = 어서 백성들이 축제를 벌이게 �
 Welcome, friend! = 환영하오, 친구여!
 Wayfinding = 활로 개척
  # Requires translation!
-Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Mamalahoe Kawanai, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819. = 
+Aloha to Kamehameha the Great, who the heavens allowed to unite your people! O great King, under your reign, the Big Island of Hawai'i became one in 1791 AD, and many other islands joined your vision of union in 1810. As the first King of Hawai'i, law and taxation systems were stabilized, and you promoted the Kanawai Mamalahoe, an edict to protect civilian people in times of war. Unification and sovereignty of all the islands continued thanks to your fair laws and deeds, even after you joined your ancestors in paradise in 1819. = 
  # Requires translation!
 Wise and benevolent King, will you unite your people once again by wearing the bright mantle of the Lion of the Pacific? Will your new empire shine through the ages of history? = 
 Honolulu = 호놀룰루
@@ -5533,7 +5947,6 @@ Sacred Waters = 신성한 물
 
 Stone Circles = 환상열석
 
-Follower = 신도
 Asceticism = 금욕주의
 
 Cathedrals = 대성당
@@ -5566,7 +5979,6 @@ Religious Community = 종교 공동체
 
 Swords into Ploughshares = 칼을 쟁기로
 
-Founder = 창시자
 Ceremonial Burial = 매장 의식
 
 Church Property = 교회 재산권
@@ -5585,7 +5997,6 @@ Tithe = 십일조
 
 World Church = 초교파교회
 
-Enhancer = 강화
 Defender of the Faith = 신앙의 수호자
 
 Holy Order = 종교 단체
@@ -5668,6 +6079,8 @@ Recycling Center = 재활용 센터
 
  # Requires translation!
 Great Firewall = 
+ # Requires translation!
+'Distrust and caution are the parents of security.' - Benjamin Franklin = 
 
 CN Tower = CN 타워
 'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams = '물리학에서 빛보다 빠른 물체는 없다. 그러나 나쁜 소식은 빛보다 빠를 수 있다. 이는 소식이 퍼지는 데 특별한 법칙이 적용되기 때문이다.' - 더글라스 애덤스
@@ -5696,6 +6109,81 @@ Pagoda = 파고다
 
 
 Marine = 해병대
+
+
+#################### Lines from Events from Civ V - Gods & Kings ####################
+
+ # Requires translation!
+Move a unit! = 
+ # Requires translation!
+Click on a unit → Click on a destination → Click the arrow popup. = 
+
+ # Requires translation!
+Found a city! = 
+ # Requires translation!
+Select the Settler → Click on 'Found city'. = 
+
+ # Requires translation!
+Enter the city screen! = 
+ # Requires translation!
+Click the city button twice. = 
+
+ # Requires translation!
+Pick a technology to research! = 
+ # Requires translation!
+Click on the tech button → Select technology → Click 'Research' (bottom right). = 
+
+ # Requires translation!
+Pick a construction! = 
+ # Requires translation!
+Enter city screen → Click on a unit or building → Click 'add to queue'. = 
+
+ # Requires translation!
+Pass a turn! = 
+ # Requires translation!
+Cycle through units with 'Next unit' → Click 'Next turn'. = 
+
+ # Requires translation!
+Reassign worked tiles! = 
+ # Requires translation!
+Enter city screen → Click the assigned tile to unassign → Click an unassigned tile to assign population. = 
+
+ # Requires translation!
+Got it = 
+ # Requires translation!
+Meet another civilization! = 
+ # Requires translation!
+Explore the map until you encounter another civilization! = 
+
+ # Requires translation!
+Open the options dialog! = 
+ # Requires translation!
+Click the menu button (top left) → Click 'Options'. = 
+
+ # Requires translation!
+Construct an improvement! = 
+ # Requires translation!
+Construct a Worker unit → Move it to a Plains or Grassland tile → Click 'Construct improvement' → Choose the farm → Leave the worker there until it's finished. = 
+
+ # Requires translation!
+Create a trade route! = 
+ # Requires translation!
+Construct roads between your capital and another city. Or, automate your worker and let him get to that eventually. = 
+
+ # Requires translation!
+Conquer a city! = 
+ # Requires translation!
+Bring an enemy city down to low health → Enter the city with a melee unit. = 
+
+ # Requires translation!
+Move an air unit! = 
+ # Requires translation!
+Select an air unit → Select another city within range → Move the unit to the other city. = 
+
+ # Requires translation!
+See your stats breakdown! = 
+ # Requires translation!
+Enter the Overview screen (top right corner) → Click on 'Stats'. = 
 
 
 #################### Lines from Nations from Civ V - Gods & Kings ####################
@@ -6034,7 +6522,7 @@ Utrecht = 위트레흐트
 Groningen = 흐로닝언
 Breda = 브레다
 Nijmegen = 네이메헨
-Den Haag = 헤이그
+The Hague = 헤이그
 Haarlem = 하를럼
 Arnhem = 아른험
 Zutphen = 주트펜
@@ -6587,6 +7075,9 @@ Hussar = 후사르
 Hakkapeliitta = 하카펠리타
 
 
+Privateer = 사략선
+
+
 #################### Lines from UnitTypes from Civ V - Gods & Kings ####################
 
 
@@ -6619,8 +7110,6 @@ Composite Bowman = 합성궁병
 
 Galleass = 갈레아스
 
-
-Privateer = 사략선
 
 Sea Beggar = 제고이센
 
@@ -6663,10 +7152,24 @@ Inquisitor = 이단심문관
 Introduction = 게임 소개
 Welcome to Unciv!\nBecause this is a complex game, there are basic tasks to help familiarize you with the game.\nThese are completely optional, and you're welcome to explore the game on your own! = Unciv에 오신 것을 환영합니다!\n이 게임은 다소 복잡하기 때문에 적응을 위해 몇가지 도움말을 준비했습니다.\n도움말을 반드시 따라할 필요는 없으며, 마음대로 게임을 둘러보셔도 상관없습니다!
 
-Your first mission is to found your capital city.\nThis is actually an important task because your capital city will probably be your most prosperous.\nMany game bonuses apply only to your capital city and it will probably be the center of your empire. = 처음에는 수도를 건설해야 하는데 이는 상당히 중요합니다.\n많은 보너스들이 수도에만 주어지므로, 수도는 국가의 중심지로서 가장 번창한 도시가 될 것이기 때문입니다.
-How do you know a spot is appropriate?\nThat’s not an easy question to answer, but looking for and building next to luxury resources is a good rule of thumb.\nLuxury resources are tiles that have things like gems, cotton, or silk (indicated by a smiley next to the resource icon)\nThese resources make your civilization happy. You should also keep an eye out for resources needed to build units, such as iron. Cities cannot be built within 3 tiles of existing cities, which is another thing to watch out for! = 수도를 건설하기에 최적의 장소는 일반적으로 사치 자원이 많은 곳입니다.\n사치 자원은 보석, 목화, 비단 등 스마일 아이콘이 붙은 자원들입니다.\n사치 자원이 중요한 이유는 문명의 행복도를 올려주기 때문입니다.\n또 유닛 생산에 필요한 말, 철 등의 전략 자원이 있는 곳도 좋습니다.\n기존 도시에서 3타일 내에는 다른 도시를 세울 수 없으므로 주의하세요!
-However, cities don’t have a set area that they can work - more on that later!\nThis means you don’t have to settle cities right next to resources.\nLet’s say, for example, that you want access to some iron – but the resource is right next to a desert.\nYou don’t have to settle your city next to the desert. You can settle a few tiles away in more prosperous lands.\nYour city will grow and eventually gain access to the resource.\nYou only need to settle right next to resources if you need them immediately – \n   which might be the case now and then, but you’ll usually have the luxury of time. = 한 도시가 차지하는 영역은 유동적입니다(차차 설명하겠습니다).\n굳이 자원 위나 바로 옆에 도시를 건설할 필요는 없다는 뜻입니다.\n예를 들어 철이 필요한데, 철이 사막 지대 옆에 있는 상황이라면\n철 근처의 사막이 아니라 좀 멀어도 더 풍족한 곳에 도시를 건설해도 됩니다.\n시간이 지나고 도시가 확장되면 언젠가는 자원이 있는 곳까지 닿을 겁니다.\n만약 어떤 자원이 즉시 필요하다면 바로 위나 옆에 건설해야 할 수도 있습니다.\n가끔 그런 경우가 있지만 보통 시간이 모자랄 일은 없습니다.
-The first thing coming out of your city should be either a Scout or Warrior.\nI generally prefer the Warrior because it can be used for defense and because it can be upgraded\n  to the Swordsman unit later in the game for a relatively modest sum of gold.\nScouts can be effective, however, if you seem to be located in an area of dense forest and hills.\nScouts don’t suffer a movement penalty in this terrain.\nIf you’re a veteran of the 4x strategy genre your first Warrior or Scout will be followed by a Settler.\nFast expanding is absolutely critical in most games of this type. = 갓 건설한 도시에서 처음 생산하는 유닛은 정찰병이나 전사가 좋습니다.\n저(개발자)는 개인적으로 전사를 더 좋아합니다. \n어느 정도 방어전이 가능하고, 나중에 싼 값에 검사로 업그레이드할 수도 있기 때문입니다.\n만약 숲이나 언덕이 많다면 험지 이동 페널티가 없는 정찰병이 좋을 수도 있습니다.\n만약 당신이 4x 전략게임의 고수라면 개척자를 생산하는 것도 좋습니다.\n이런 게임은 대부분 빠른 확장이 굉장히 중요합니다.
+ # Requires translation!
+Welcome to Unciv! = 
+ # Requires translation!
+Because this is a complex game, there are some tutorials to help familiarize you with it. These can be disbaled in the Options -> Display menu, but please hang on if you're new here! = 
+ # Requires translation!
+Your first mission is to found your capital city. This is actually an important task because your capital city will probably be your most prosperous. Many game bonuses apply only to your capital city, and it will be the center of your empire. = 
+ # Requires translation!
+How do you know a city location is appropriate? Luckily, the game has already chosen a good location for you. You can settle in this place, or maybe move a turn to found on a Hill (for Production and defence) or next to a Mountain (to gain access to the Observatory building later on). = 
+ # Requires translation!
+You'll likely want more cities later on. For these cities, you must go and find a good place. Looking for and founding on or near Luxury resources is a good rule of thumb. = 
+ # Requires translation!
+Luxury resources are tiles that have things like Gems, Cotton, or Silk (indicated by a yellow background of the resource icon). These resources make your civilization happy. You should also keep an eye out for resources needed to build units, such as Iron. Cities cannot be built within 3 tiles of existing cities, which is another thing to keep in mind! = 
+ # Requires translation!
+Cities will house Citizens, which can work tiles up to 3 tiles away from the city. This means you don’t have to settle cities right on or next to good tiles. Let’s say, for example, that you want access to some Iron – but the resource is in a desert area. You don’t have to settle your city in the desert. You can settle a few tiles away in more prosperous lands. Your city will grow and eventually gain access to the resource. You only need to settle right on top of resources if you need them immediately. = 
+ # Requires translation!
+The first thing coming out of your city depends on the strategy you want to follow, but the 'classic' build order is to build first two Scouts, then a Shrine, and three Settlers, and adopt Tradition, to explore the map quickly (Scouts ignore terrain cost), and to get an early Pantheon (if you're playing with religion enabled). = 
+ # Requires translation!
+But feel free to experiment with your own build orders! = 
 
 In your first couple of turns, you will have very little options, but as your civilization grows, so do the number of things requiring your attention. = 초반 몇 턴 동안은 이렇게 선택지가 많지 않습니다.\n하지만 문명이 성장할수록 신경쓸 것들도 점점 많아집니다.
 
@@ -6680,6 +7183,60 @@ Once a city has gathered enough Culture, it will expand into a neighboring tile.
 Each additional tile will require more culture, but generally your first cities will eventually expand to a wide tile range. =  도시 영역이 한 칸씩 확장될 때마다 다음 확장에 필요한 문화가 증가합니다.\n초반에 세운 도시들은 보통 중후반에는 넓은 도시 영역을 가지게 됩니다.
 Although your city will keep expanding forever, your citizens can only work 3 tiles away from city center.\nThis should be taken into account when placing new cities. = 도시 영역에는 몇몇 제한이 있으므로 도시 건설시 주의가 필요합니다.\n시민 배치, 타일 구매, 건물 보너스(마구간 등)는 도시 중심에서 3타일까지만 가능합니다.\n문화로 인한 자연확장은 도시 중심에서 5타일까지만 가능합니다.\n5타일 반경 이상으로 확장하려면 위대한 장군으로 성채를 건설해야만 합니다.
 
+ # Requires translation!
+Food is the resource fundamental to your Cities', and as a result Nation's, population and health. = 
+ # Requires translation!
+Every Citizen in each City consumes Food per turn. Any left over is considered Growth and is stored in the City Center. Once enough accumulates, the City Grows and a new Citizen is added. = 
+ # Requires translation!
+Initially your main source of Food is the City Center itself and working a surrounding tile with a Citizen. You can increase how much is generated by gaining more Citizens to work more tiles, improving the tiles so that they yield more Food, and eventually Buildings and Policies. = 
+ # Requires translation!
+Since a city's number of Citizens, or Population, determines how many tiles a City can work, Food is often the most important Resource. = 
+
+ # Requires translation!
+Production is the resource that lets a City Center build new things. = 
+ # Requires translation!
+This can be new Buildings that are added to the City Center, or new Units that can go out across the World Map to advance your Nation's goals. = 
+ # Requires translation!
+Everything you can build has a Production Cost. Every turn each City generates a certain amount of Production and puts it towards whatever is at the top of the Build Queue. Once the total cost is collected, the Building or Unit is built! = 
+ # Requires translation!
+Any excess Production after something is built is overflowed to the next thing the City builds. Up to it's total Production Cost. = 
+ # Requires translation!
+Since this determines how quickly you can build more stuff, your Nation's Production Capacity is crucial to it's advancement and survival. = 
+
+ # Requires translation!
+⍾Science is the resource that unlocks new and exciting Technologies for your Nation. = 
+ # Requires translation!
+Once you've Founded your Capital, you'll be prompted to Pick a Technology to Research. = 
+ # Requires translation!
+Every Technology costs an amount of ⍾Science. Every turn the ⍾Science your Nation produces is paid towards Researching your chosen Technology. = 
+ # Requires translation!
+Once a Technology has it's cost fully paid, you unlock the benefits for your Nation! This could be new Units, Buildings, or other advantages. Any surplus will overflow into the next Technology you pick to Research. = 
+ # Requires translation!
+Researching a Technology in the next Era will advance you into that Era and trigger a notification to other Nations about how amazing you are! = 
+ # Requires translation!
+Since new Technologies tend to give access to better Units, Buildings, and even unlock powerful new Policies, staying ahead of the competition is one of the best ways to secure your Victory! = 
+
+ # Requires translation!
+Ah Gold. The Universal Medium of Exchange. Everyone loves Gold! They say it can't buy Happiness, but nuclear submarines are almost as good. = 
+ # Requires translation!
+You can earn more Gold from Tiles, Resources, Improvements, and eventually Buildings, Specialists, and Trade Routes. Ancient Ruins, meeting new City-States, and Pillaging are also great sources of Gold. During a Golden Age every Tile that already yields Gold will yield an additional Gold! = 
+ # Requires translation!
+Gold is how you pay for Building Maintenance, Transportation Upkeep, and Unit Upkeep. If you run out of Gold, first you'll receive penalties to your ⍾Science production, then eventually your Units will start Disbanding as you can't pay their upkeep. = 
+ # Requires translation!
+Gold can be used to Buy Buildings and Units, helping bring up a new City or quickly build an Army. It can also buy Tiles to add to your City. It's also used to Upgrade your units from their older, obsolete forms to new, stronger versions. And investing it into a Research Agreement is a great way to convert it into ⍾Science. = 
+ # Requires translation!
+Gold is also very valuable in Diplomacy. You can directly Gift Gold to City-States to gain their favor. Use it to balance a Trade Deal with other Nations. Or demand every last drop after a successful war and your enemy sues for peace. = 
+ # Requires translation!
+Ironically, some may consider Gold to be one of the less important Resources. But it's flexible nature and importance to keep your Nation running makes it a precious thing to pay attention to. After all, everyone loves Gold. = 
+ # Requires translation!
+Not to be confused with the Resource of the same name, Gold Ore = 
+ # Requires translation!
+See also: Trade Route = 
+ # Requires translation!
+See also: Golden Age = 
+ # Requires translation!
+See also: Research Agreements = 
+
 As cities grow in size and influence, you have to deal with a happiness mechanic that is no longer tied to each individual city.\nInstead, your entire empire shares the same level of satisfaction.\nAs your cities grow in population you’ll find that it is more and more difficult to keep your empire happy. = 도시의 영역과 인구가 증가하면 문명 전체의 행복도를 신경써야 합니다.\n행복도는 과학, 골드처럼 문명 전체에서 공유되는 값입니다.\n도시 수와 전체 인구수가 증가할수록 국가를 행복한 상태로 유지하는 것이 어려워집니다.
 In addition, you can’t even build any city improvements that increase happiness until you’ve done the appropriate research.\nIf your empire’s happiness ever goes below zero the growth rate of your cities will be hurt.\nIf your empire becomes severely unhappy (as indicated by the smiley-face icon at the top of the interface)\n  your armies will have a big penalty slapped on to their overall combat effectiveness. = 상단의 웃는 아이콘이 행복도를 나타냅니다.\n행복도를 올려주는 건물을 지으려면 해당 기술을 연구해야 합니다.\n행복도가 마이너스로 떨어지면 불행 상태가 되어 모든 도시의 성장률이 크게 감소합니다.\n불행 상태가 심해지면 군사 유닛들의 전투력도 크게 감소합니다.
 This means that it is very difficult to expand quickly in Unciv.\nIt isn’t impossible, but as a new player you probably shouldn't do it.\nSo what should you do? Chill out, scout, and improve the land that you do have by building Workers.\nOnly build new cities once you have found a spot that you believe is appropriate. = 이는 곧 Unciv에서는 빠른 확장이 매우 어렵다는 것을 의미합니다.\n할 수는 있지만 초심자라면 그렇게 하지 않는 게 좋을 겁니다.\n그럼 어떻게 해야 할까요? 느긋하게 정찰하고 노동자를 건설해서 지금 가진 땅에 시설을 지으세요.\n새로운 도시는 적당하다고 생각되는 자리에만 펴는 것이 좋습니다.
@@ -6692,7 +7249,33 @@ There are 2 main ways to combat unhappiness:\n  by building happiness buildings 
 You have entered a Golden Age!\nGolden age points are accumulated each turn by the total happiness \n  of your civilization\nWhen in a golden age, culture and production generation increases +20%,\n  and every tile already providing at least one gold will provide an extra gold. = 문명이 황금기에 진입했습니다!\n매 턴 행복도가 문명의 황금기 점수에 누적됩니다.\n황금기 점수가 일정치에 달하면 황금기가 시작됩니다.\n황금기에는 모든 도시의 문화와 생산력이 20% 증가하고\n1골드 이상 생산하던 모든 타일에서 산출량이 1골드 증가합니다.
 
 Roads and Railroads = 도로와 철도
-Connecting your cities to the capital by roads\n  will generate gold via the trade route.\nNote that each road costs 1 gold Maintenance per turn, and each Railroad costs 2 gold,\n  so it may be more economical to wait until the cities grow! = 도로, 철도, 항만 등으로 도시를 수도에 연결하면 무역로가 만들어져 골드를 얻을 수 있습니다.\n도로 하나당 1골드, 철도 하나당 2골드가 유지비로 소모됩니다.\n도시가 작을 때 도로를 많이 지으면 유지비가 누적되어 장기적으로 적자가 날 수 있습니다.
+ # Requires translation!
+Roads reduce the Movement Points required to move between two tiles connected by Roads. = 
+ # Requires translation!
+Railroads improve this reduction even more! = 
+ # Requires translation!
+This greatly improves the speed you can get Units around the map. = 
+ # Requires translation!
+Until you research the technology that removes it, Roads do not cross Rivers = 
+ # Requires translation!
+Connecting your cities to the capital by Roads and/or Railroads will generate Gold via the Trade Route. = 
+ # Requires translation!
+However, since each Road and Railroad have a Maintenance Cost, it may be more economical to wait until the cities grow and only place where needed. = 
+
+ # Requires translation!
+Trade Route = 
+ # Requires translation!
+Connecting your cities to the capital by Roads and/or Railroads will generate Gold via the Trade Route. You earn more Gold the more Population the City and your Capital has. = 
+ # Requires translation!
+Note that each road costs 1 Gold Maintenance per turn, and each Railroad costs 2 Gold, so it may be more economical to wait until the cities grow! = 
+ # Requires translation!
+Railroads connecting a city to the Capital also provide a 25% Production Boost to the City, but not the Capital. = 
+ # Requires translation!
+Trade Routes are also connected over Water via certain buildings like the Harbor. As long as there is a chain that can reach the Capital, there's a Trade Route. Look for this symbol in Yellow below the City Name to mean you have an active Trade Route to your Capital. = 
+ # Requires translation!
+Trade Routes can get broken either by Blockades or by Removing/Pillaging the connecting Road/Railroad chain. = 
+ # Requires translation!
+See also City Blockade = 
 
 Victory Types = 승리 유형
 Once you’ve settled your first two or three cities you’re probably 100 to 150 turns into the game.\nNow is a good time to start thinking about how, exactly, you want to win – if you haven’t already. = 도시를 2~3개 세웠다면 아마 100~150턴 정도가 지나 있을 것입니다.\n이때부터는 승리 유형을 대략적으로 생각해보는 것이 좋습니다.
@@ -6735,7 +7318,16 @@ Once a certain tech is researched, your land units can embark, allowing them to 
 Units are defenseless while embarked (cannot use modifiers), and have a fixed Defending Strength based on your tech Era, so be careful!\nRanged Units can't attack, Melee Units have a Strength penalty, and all have limited vision. = 승선한 유닛은 요새화할 수 없고(방어력 보정 없음) 방어시 전투력이 시대별로 일괄 고정됩니다.\n승선 중에는 그밖에도 모든 유닛 시야 감소,\n원거리 유닛 공격 불가, 근접 유닛 전투력 감소 등의 페널티를 받습니다.
 
 Idle Units = 유휴 상태
-If you don't want to move a unit this turn, you can skip it by clicking 'Next unit' again.\nIf you won't be moving it for a while, you can have the unit enter Fortify or Sleep mode - \n  units in Fortify or Sleep are not considered idle units.\nIf you have not decided yet what an unit should do for the current turn, choose the 'Wait' command. A 'waiting' unit will be selected again at the end of the 'Next Unit' cycle, once all other units have received their orders.\nIf you want to disable the 'Next unit' feature entirely, you can toggle it in Menu -> Check for idle units. = 유닛을 한 턴 동안 움직이지 않으려면 "다음 유닛" 버튼을 눌러서 넘기면 됩니다.\n만약 유닛을 오랫동안 움직이지 않으려면 요새화나 대기 상태로 두면 됩니다.\n유닛이 이렇게 요새화 또는 대기하고 있는 것을 유휴 상태라고 합니다.\n이번 턴에 뭘 할지 결정하지 못했다면 "넘기기" 를 하면 됩니다.\n넘기기한 유닛은 다음 유닛 버튼이 한 사이클을 다 돌고 나면 다시 선택됩니다.\n다음 유닛 기능 자체를 끄려면 설정의 "턴 넘기기 전에 미행동 유닛 보기" 항목을 체크 해제하면 됩니다.
+ # Requires translation!
+Clicking 'Next unit' moves to the next idle unit in the queue (as listed in Overview -> Units). After issuing an order to an unit, if 'Auto Unit Cycle' in Options -> Gameplay is enabled, you will automatically select the next idle unit. = 
+ # Requires translation!
+If you don't want to move a unit this turn, you can skip it by clicking 'Next unit' again, or command the unit to 'Skip turn'. = 
+ # Requires translation!
+If you want to disable the 'Next unit' feature entirely, you can toggle it in Options -> Gameplay -> Check for idle units. = 
+ # Requires translation!
+If you'd rather 'Next unit' cycle the units and not mark them as Done, you can change it in the Options -> Gameplay menu. = 
+ # Requires translation!
+You can also cycle through the idle units using the left and right triangles on the Unit Table in the lower left of the screen. Or by default using the Cycle button next to the 'Next Unit' button. = 
 
 Contact Me = 개발자의 말
 Hi there! If you've played this far, you've probably seen that the game is currently incomplete.\n Unciv is meant to be open-source and free, forever.\n That means no ads or any other nonsense. = 안녕하십니까?\n여러분이 플레이해주신 이 게임은 현재 미완성입니다.\nUnciv는 앞으로도 계속 무료 오픈소스로 배포될 예정입니다.\n광고 같은 잡다한 요소는 일절 없을 겁니다.
@@ -6755,8 +7347,11 @@ Units use the 'Strength' value as the base combat value when melee attacking and
 Ranged attacks can be done from a distance, dependent on the 'Range' value of the unit.\nWhile melee attacks allow the defender to damage the attacker in retaliation, ranged attacks do not. = 원거리 공격의 범위는 해당 유닛의 '사거리'에 의해서 결정됩니다.\n근접 공격은 방어측으로부터 반격 피해를 받지만 원거리 공격은 반격 피해가 없습니다.
 
 Research Agreements = 연구 협정
-In research agreements, you and another civilization decide to jointly research technology.\nAt the end of the agreement, you will both receive a 'lump sum' of Science, which will go towards one of your unresearched technologies. = 연구 협정은 당신과 다른 문명이 합동 연구를 하는 것입니다.\n연구 협정이 끝나면 양측이 일시불 과학력을 얻으며 이는 미완료된 연구에 투입됩니다.
+ # Requires translation!
+In research agreements, you and another civilization decide to jointly research technology.\nAt the end of the agreement, you will both receive a 'lump sum' of ⍾Science, which will go towards one of your unresearched technologies. = 
 The amount of ⍾Science you receive at the end is dependent on the ⍾Science generated by your cities and the other civilization's cities during the agreement - the more, the better! = 연구 협정으로 받는 과학력은 협정 기간동안\n당신의 문명과 상대 문명이 생산한 과학력에 의해 결정됩니다.
+ # Requires translation!
+Note that before you can invest in a research agreement, you must have a Declaraction of Friendship, both Nations need the required Technology, and both Nations need enough Gold on hand for the agreement. = 
 
 Defensive Pacts = 방위 협정
  # Requires translation!
@@ -6770,36 +7365,55 @@ Not all nations are contending with you for victory.\nCity-States are nations th
 Instead, diplomatic relations with City-States are determined by Influence - a meter of 'how much the City-State likes you'.\nInfluence can be increased by attacking their enemies, liberating their city, and giving them sums of gold. = 도시 국가와의 관계는 '영향력', 즉 '해당 도시국가가 당신을 얼마나 좋아하는지' 로 결정됩니다.\n영향력을 높이는 방법은 해당 도국의 적을 공격하거나, 도시를 해방시키거나, 일시불 골드를 주는 방법이 있습니다.
 Certain bonuses are given when you are at above 30 influence.\nWhen you have above 60 Influence, and you have the highest influence with them of all civilizations, you are considered their 'Ally', and gain further bonuses and access to the Luxury and Strategic resources in their lands. = 영향력이 30 이상이면 '우호적인 관계'가 되어 도국의 성향에 따른 보너스를 받을 수 있습니다.\n영향력이 60 이상이면서 해당 도국에 끼치는 영향력이 가장 높으면 '동맹 관계'가 되어\n성향별 보너스가 상승하거나 사치/전략 자원을 사용할 수 있습니다.
 
+ # Requires translation!
+While working the land is good, eventually your Citizens will want to Specialize. = 
+ # Requires translation!
+Certain Buildings will also provide Specialist Slots. These slots will show up in the Citizen Management within the City Screen under Specialists. Each slot can be filled with a Citizen which will then become a Specialist. = 
+ # Requires translation!
+Each Specialist will generate a certain amount of yield as indicated to the right of the available slots. = 
+ # Requires translation!
+While these are a great way to specialize the yield production of a City outside of the surrounding Tile Yields, Specialists have an additional value. Each one also generates Great Person Points each turn. With enough of them, a new Great Person will join your Nation. = 
+ # Requires translation!
+See also Great People = 
+
 Great People = 위인
 Certain buildings, and specialists in cities, generate Great Person points per turn.\nThere are several types of Great People, and their points accumulate separately.\nThe number of points per turn and accumulated points can be viewed in the Overview screen. = 도시의 전문가나 어떤 건물들은 매 턴 위인 점수를 생산합니다.\n위인에는 몇 가지 종류가 있으며, 각각의 점수는 개별적으로 쌓입니다.\n턴당 위인점수와 누적 위인점수는 문명 상태 화면에서 볼 수 있습니다.
  # Requires translation!
-Alternatively, the Great Person points breakdown per city can be viewed in each city screen (see UI Tips article). = 
+Alternatively, the Great Person points breakdown per city can be viewed in each City Screen (see UI Tips article). = 
 Once enough points have been accumulated, a Great Person of that type will be created!\nEach Great Person can construct a certain Great Improvement which gives large yields over time, or immediately consumed to provide a certain bonus now. = 위인 점수가 일정치에 달하면 해당하는 위인이 출현합니다!\n위인으로는 위인 시설을 건설하여 장기간 많은 양의 산출량을 얻을 수도 있고\n일회성으로 소모하여 일시불로 많은 보너스를 얻을 수도 있습니다.
 Great Improvements also provide any strategic resources that are under them, so you don't need to worry if resources are revealed underneath your improvements! = 전략 자원 위에 위인 시설을 건설해도 해당 자원을 획득할 수 있습니다.\n이미 건설한 위인시설 밑에서 나중에 전략 자원이 발견되더라도\n자원을 얻기 위해서 시설을 없애거나 바꿀 필요는 없는 것입니다.
+ # Requires translation!
+See also Specialists = 
 
 Removing Terrain Features = 추가지형
 Certain tiles have terrain features - like Flood plains or Forests -  on top of them. Some of these layers, like Jungle, Marsh and Forest, can be removed by workers.\nRemoving the terrain feature does not remove any resources in the tile, and is usually required in order to add improvements exploiting those resources. = 어떤 타일은 그 위에 추가지형을 가지고 있습니다.\n숲, 정글, 습지 등 몇몇 추가지형은 노동자로 제거할 수 있습니다.\n추가지형을 제거해도 해당 타일의 자원은 사라지지 않습니다.\n자원을 개발하려면 추가지형을 제거해야하는 경우가 더 많습니다.
 
-Natural Wonders, such as the Mt. Fuji, the Rock of Gibraltar and the Great Barrier Reef, are unique, impassable terrain features, masterpieces of mother Nature, which possess exceptional qualities that make them very different from the average terrain.\nThey benefit by giving you large sums of Culture, Science, Gold or Production if worked by your Cities, which is why you might need to bring them under your empire as soon as possible. = 후지 산, 지브롤터 암벽, 대보초 등의 자연 불가사의(자연 경관)는 어느 지형과도 다른 독특한 특성을 지닙니다.\n자연 불가사의는 맵에 하나씩밖에 없고, 유닛이 지나갈 수 없으며\n해당 타일에 인구를 배치하면 많은 양의 문화, 과학, 골드 등을 얻을 수 있으므로\n자연 불가사의를 최대한 빨리 확보하는 것이 중요하다고 할 수 있습니다.
+ # Requires translation!
+Natural Wonders, such as the Mt. Fuji, the Rock of Gibraltar and the Great Barrier Reef, are unique, impassable terrain features, masterpieces of mother Nature, which possess exceptional qualities that make them very different from the average terrain.\nThey benefit by giving you large sums of Culture, ⍾Science, Gold or Production if worked by your Cities, which is why you might need to bring them under your empire as soon as possible. = 
 
 Keyboard = 단축키
 If you have a keyboard, some shortcut keys become available. Unit command or improvement picker keys, for example, are shown directly in their corresponding buttons. = 키보드에서 몇가지 단축키를 사용할 수 있습니다. 유닛 명령이나 시설 건설 등의 단축키는 직접적으로 제시되어 있습니다.
 On the world screen the hotkeys are as follows: = 세계 화면에서 사용가능한 단축키는 다음과 같습니다.
-Space or 'N' - Next unit or turn\n'E' - Empire overview (last viewed page)\n'+', '-' - Zoom in / out\nHome - center on capital or open its city screen if already centered = Spacebar 또는 N: 다음 유닛(다음 턴)\nE: 문명 상태(마지막으로 본 화면이 표시됨)\n+/-: 확대/축소\nHome: 수도를 화면 중앙으로(다시 누르면 수도 도시 화면 열기)
+Space or 'N' - Next unit or turn\n'E' - Empire overview (last viewed page)\n'+', '-' - Zoom in / out\nHome - center on capital or open its City Screen if already centered = Spacebar 또는 N: 다음 유닛(다음 턴)\nE: 문명 상태(마지막으로 본 화면이 표시됨)\n+/-: 확대/축소\nHome: 수도를 화면 중앙으로(다시 누르면 수도 도시 화면 열기)
 F1 - Open Civilopedia\nF2 - Empire overview Trades\nF3 - Empire overview Units\nF4 - Empire overview Diplomacy\nF5 - Social policies\nF6 - Technologies\nF7 - Empire overview Cities\nF8 - Victory Progress\nF9 - Empire overview Stats\nF10 - Empire overview Resources\nF11 - Quicksave\nF12 - Quickload = F1: 문명 백과사전\nF2: 문명상태-거래\nF3: 문명상태-유닛\nF4: 문명상태-외교\nF5: 사회 정책\nF6: 기술\nF7: 문명상태-도시\nF8: 승리 조건\nF9: 문명상태-통계\nF10: 문명상태-자원\nF11: 빠른 저장\nF12: 빠른 불러오기
 Ctrl-R - Toggle tile resource display\nCtrl-Y - Toggle tile yield display\nCtrl-O - Game options\nCtrl-S - Save game\nCtrl-L - Load game\nCtrl-U - Toggle UI (World Screen only) = Ctrl + R: 자원/시설 아이콘 보기 on/off\nCtrl + Y: 타일 산출량 보기 on/off\nCtrl + O: 설정\nCtrl + S: 저장하기\nCtrl + L: 불러오기\nCtrl + U: 세계 화면 UI 보이기/숨기기
+ # Requires translation!
+All of these can be reassigned. = 
 
 This is where you spend most of your time playing Unciv. See the world, control your units, access other screens from here. = 게임 플레이의 대부분은 세계 화면에서 이루어집니다. 여기서 지도를 보고, 유닛을 조작하고, 다른 화면으로 넘어가게 됩니다.
 ①: The menu button - civilopedia, save, load, options... = ① 메뉴 버튼: 문명 백과사전, 저장하기, 불러오기, 설정 등
-②: The player/nation whose turn it is - click for diplomacy overview. = ② 현재 차례인 플레이어/문명: 클릭하여 문명상태의 외교 화면을 열 수 있습니다.
+ # Requires translation!
+②: The player/nation whose turn it is - click for diplomacy overview. = 
 ③: The Technology Button - shows the tech tree which allows viewing or researching technologies. = ③ 기술 버튼: 기술 트리를 보거나 선택하여 연구할 수 있습니다.
 ④: The Social Policies Button - shows enacted and selectable policies, and with enough culture points you can enact new ones. = ④ 정책 버튼: 채택/선택 가능한 정책을 볼 수 있고 문화가 일정 수치 누적되면 새 정책을 채택할 수 있습니다.
 ⑤: The Diplomacy Button - shows the diplomacy manager where you can talk to other civilizations. = ⑤ 외교 버튼: 외교창을 열어 다른 문명과 대화할 수 있습니다.
 ⑥: Unit Action Buttons - while a unit is selected its possible actions appear here. = ⑥ 유닛 행동 버튼: 선택한 유닛이 수행할 수 있는 행동이 나타납니다.
 ⑦: The unit/city info pane - shows information about a selected unit or city. = ⑦ 유닛(도시) 정보창: 선택한 유닛 또는 도시의 정보가 나타납니다.
 ⑧: The name (and unit icon) of the selected unit or city, with current health if wounded. Clicking a unit name or icon will open its civilopedia entry. = ⑧ 선택한 유닛 또는 도시의 이름이 나타나고, 부상을 입었다면 현재 HP가 나타납니다. 유닛의 이름 또는 아이콘을 클릭하여 해당되는 문명 백과사전 항목으로 이동할 수 있습니다.
-⑨: The arrow buttons allow jumping to the next/previous unit. = ⑨ 화살표 버튼을 눌러서 이전/다음 유닛으로 이동할 수 있습니다.
-⑩: For a selected unit, its promotions appear here, and clicking leads to the promotions screen for that unit. = ⑩ 선택한 유닛이 보유한 승급이 나타나며, 클릭하여 해당 유닛의 승급창을 열 수 있습니다.
+ # Requires translation!
+⑨: The arrow buttons allow jumping to the next/previous idle unit. = 
+ # Requires translation!
+⑩: For a selected unit, its promotions appear here, and clicking leads to the promotions screen for that unit. = 
 ⑪: Remaining/per turn movement points, strength and experience / XP needed for promotion. For cities, you get its combat strength. = 남은행동력/최대행동력, 전투력/원거리공격력, 현재경험치/승급경험치가 나타나고, 도시는 전투력이 나타납니다.
 ⑫: This button closes the selected unit/city info pane. = ⑫ 유닛 또는 도시 정보창을 닫습니다.
 ⑬: This pane appears when you order a unit to attack an enemy. On top are attacker and defender with their respective base strengths. = ⑬ 아군 유닛 또는 도시를 선택한 다음에 적 유닛을 선택하면 전투력 상세정보 창을 볼 수 있습니다. 최상단에는 공격측의 공격력과 방어측의 전투력이 표시됩니다.
@@ -6807,13 +7421,16 @@ This is where you spend most of your time playing Unciv. See the world, control 
 ⑮: The Attack Button - let blood flow! = ⑮ 공격 버튼입니다. 피를 보게 하십시오!
 ⑯: The minimap shows an overview over the world, with known cities, terrain and fog of war. Clicking will position the main map. = ⑯ 미니맵에는 전체적인 세계의 모습, 이미 조우한 도시와 이미 탐색한 지형, 미탐색 구역 등이 나타납니다. 미니맵을 클릭하여 세계 화면을 이동할 수 있습니다.
 ⑰: To the side of the minimap are display feature toggling buttons - tile yield, worked indicator, show/hide resources. These mirror setting on the options screen and are hidden if you deactivate the minimap. = ⑰ 미니맵 측면에는 타일 산출량 보기, 시민 배치 보기, 자원/시설 보기 버튼이 있습니다. 이는 설정의 토글과 대응되며 미니맵을 보기 설정을 끄면 같이 숨겨집니다.
-⑱: Tile information for the selected hex - current or potential yield, terrain, effects, present units, city located there and such. Where appropriate, clicking a line opens the corresponding civilopedia entry. = 현재 타일 정보창: 현재 또는 잠재 산출량, 지형, 효과, 위치한 유닛, 도시 중심가 여부 등이 나타납니다. 일부 항목은 클릭하여 해당되는 문명 백과사전 항목으로 이동할 수 있습니다.
-⑲: Notifications - what happened during the last 'next turn' phase. Some are clickable to show a relevant place on the map, some even show several when you click repeatedly. = ⑲ 알림: 턴을 넘긴 뒤에 어떤 일이 일어났는지 알려줍니다. 어떤 알림은 클릭하여 해당되는 창을 열거나 지도의 위치로 이동할 수 있습니다. 지도에 해당되는 위치가 여러 곳인 알림도 있습니다.
+ # Requires translation!
+⑱: Tile information for the selected hex - current or potential yield, terrain, effects, present units, city located there and such. Where appropriate, clicking a line opens the corresponding civilopedia entry. = 
+ # Requires translation!
+⑲: Notifications - what happened during the last 'next turn' phase. Some are clickable to show a relevant place on the map, some even show several when you click repeatedly. = 
 ⑳: The Next Turn Button - unless there are things to do, in which case the label changes to 'next unit', 'pick policy' and so on. = ⑳ 다음 턴 버튼: '다음 유닛', '정책 선택' 등이 나타나지 않고 할일이 더이상 없다면 누르면 됩니다.
 ㉑: The Multiplayer Button - Here you can easily check your active multiplayer games. = ㉑ 멀티플레이 버튼: 참여 중인 멀티 게임을 손쉽게 확인할 수 있습니다.
 ⓐ: The overview button leads to the empire overview screen with various tabs (the last one viewed is remembered) holding vital information about the state of your civilization in the world. = ⓐ 문명 상태 버튼: 다양한 문명상태창을 볼 수 있습니다. 마지막으로 본 탭은 기억됩니다. 모든 상태창은 당신의 문명에 있어 중요한 정보를 담고 있습니다.
 ⓑ: The ♪Culture icon shows accumulated ♪Culture and ♪Culture needed for the next policy - in this case, the exclamation mark tells us a next policy can be enacted. Clicking is another way to the policies manager. = ⓑ 문화 아이콘: 턴당 문화와 다음 정책 채택까지 필요한 턴수를 알 수 있습니다. 정책 채택이 가능할 만큼의 문화가 모이면 느낌표가 표시됩니다. 문화 아이콘을 클릭하면 정책 화면을 볼 수 있습니다.
-ⓒ: Your known strategic resources are displayed here with the available (usage already deducted) number - click to go to the resources overview screen. = ⓒ 자원 아이콘: 기술이 연구된 전략자원과 현재 사용가능한 갯수가 나타납니다. 자원 아이콘을 클릭하면 문명상태의 자원 탭을 볼 수 있습니다.
+ # Requires translation!
+ⓒ: Your known strategic resources are displayed here with the available (usage already deducted) number - click to go to the resources overview screen. = 
 ⓓ: Happiness/unhappiness balance and either golden age with turns left or accumulated happiness with amount needed for a golden age is shown next to the smiley. Clicking also leads to the resources overview screen as luxury resources are a way to improve happiness. = ⓓ 행복도 아이콘: 아이콘은 행복/불행에 따라 변하며 턴당 행복도, 누적 행복도, 다음 황금기 발동에 필요한 행복도 등이 표시됩니다. 클릭하면 문명상태의 자원 탭을 열어 사치자원을 확인할 수 있습니다.
 ⓔ: The ⍾Science icon shows the number of ⍾Science points produced per turn. Clicking leads to the technology tree. = ⓔ 과학 아이콘: 턴당 과학이 표시됩니다. 클릭하면 기술 화면을 열 수 있습니다.
 ⓕ: Number of turns played with translation into calendar years. Click to see the victory overview. = ⓕ 현재 턴수와 연도가 표시됩니다. 클릭하면 승리 조건을 볼 수 있습니다.
@@ -6861,7 +7478,7 @@ Pantheon and Follower beliefs apply to each city following your religion, while 
 Religion inside cities = 종교와 도시
 When founding a city, it won't follow a religion immediately. = 도시를 새로 건설해도 종교를 즉시 믿는 것은 아닙니다.
 The religion a city follows depends on the total pressure each religion has within the city. = 도시가 믿는 종교는 각 종교가 도시에 미치는 압력의 총합에 따라 결정됩니다.
-Followers are allocated in the same proportions as these pressures, and these followers can be viewed in the city screen. = 신도들은 압력의 비율에 따라서 증가하며 이는 도시 화면에서 확인할 수 있습니다.
+Followers are allocated in the same proportions as these pressures, and these followers can be viewed in the City Screen. = 신도들은 압력의 비율에 따라서 증가하며 이는 도시 화면에서 확인할 수 있습니다.
 You are allowed to check religious followers and pressures in cities you do not own by selecting them. = 타 문명의 도시도 클릭해서 신도 수와 종교 압력을 확인할 수 있습니다.
 In both places, a tap/click on the icon of a religion will show detailed information with its effects. = 어느 쪽에서든 종교 아이콘을 클릭하면 해당 종교의 상세 정보와 교리를 볼 수 있습니다.
 Based on this, you can get a feel for which religions have a lot of pressure built up in the city, and which have almost none. = 신도 수와 압력을 보면 도시에 영향력을 가장 많이(또는 적게) 끼치는 종교가 무엇인지 알 수 있습니다.
@@ -6879,7 +7496,7 @@ This diminishes their effectiveness when spreading religion, and if their religi
 When you do spread your religion, the religious strength of the unit is added as pressure for that religion. = 종교 전파를 하면 해당 유닛의 신앙력이 종교 압력으로 더해집니다.
 Cities also passively add pressure of their majority religion to nearby cities. = 인근에 대중 종교를 믿는 도시가 있으면 그 도시에서도 종교 압력이 가해집니다.
 Each city provides +6 pressure per turn to all cities within 10 tiles, though the exact amount of pressure depends on the game speed. = 각 도시는 주변 10타일 내의 도시에 +6의 종교 압력을 가합니다. 실제 수치는 게임 속도에 따라 달라질 수 있습니다.
-This pressure can also be seen in the city screen, and gives you an idea of how religions in your cities will evolve if you don't do anything. = 도시 화면에서도 압력을 확인할 수 있으며, 이는 플레이어가 아무런 조작을 하지 않았을 때에 도시의 종교 분포가 어떻게 될지를 보여줍니다.
+This pressure can also be seen in the City Screen, and gives you an idea of how religions in your cities will evolve if you don't do anything. = 도시 화면에서도 압력을 확인할 수 있으며, 이는 플레이어가 아무런 조작을 하지 않았을 때에 도시의 종교 분포가 어떻게 될지를 보여줍니다.
 Holy cities also provide +30 pressure of the religion founded there to themselves, making it very difficult to effectively convert a holy city. = 또한 성도는 자기 자신에게 +30의 압력을 가하므로, 성도를 개종시키는 것은 상당히 어려울 수 있습니다.
 Lastly, before founding a religion, new cities you settle will start with 200 pressure for your pantheon. = 마지막으로, 종교를 창시하기 전에 건설한 도시는 종교관 압력 200으로 시작합니다.
 This way, all your cities will starting following your pantheon as long as you haven't founded a religion yet. = 즉 종교관을 세우고 종교를 창시하기 전까지 건설한 모든 도시는 종교관을 가지고 시작한다는 것입니다.
@@ -6889,7 +7506,7 @@ Inquisitors are the last religious unit, and their strength is removing other re
 They can remove all other religions from one of your own cities, removing any pressures built up. = 이단심문관은 플레이어가 소유한 도시 하나에서 타 종교가 누적했던 모든 압력을 제거할 수 있습니다.
 Great prophets also have this ability, and remove all other religions in the city when spreading their religion. = 타 종교 제거는 위대한 선지자로 종교 전파를 할 때에도 가능합니다.
 Often this results in the city immediately converting to their religion = 이런 식으로 종교 전파를 하면 대부분 한 번에 개종됩니다.
-Additionally, when an inquisitor is stationed in or directly next to a city center, units of other religions cannot spread their faith there, though natural spread is uneffected. = 이단심문관이 주둔해 있거나 인접한 도시에는 다른 종교의 유닛이 종교 전파를 할 수 없으며, 주변 도시에 의한 종교 압력만 작용합니다.
+Additionally, when an inquisitor is stationed in or directly next to a city center, units of other religions cannot spread their faith there, though natural spread is unaffected. = 이단심문관이 주둔해 있거나 인접한 도시에는 다른 종교의 유닛이 종교 전파를 할 수 없으며, 주변 도시에 의한 종교 압력만 작용합니다.
 
 The Mayan unique ability, 'The Long Count', comes with a side effect: = 마야의 특성인 '장기력' 에는 부작용이 있습니다.
 Once active, the game's year display will use mayan notation. = 장기력이 활성화되면 게임의 연도 표시가 마야 글씨로 바뀝니다.
@@ -6901,12 +7518,40 @@ If you manage to acquire the demanded luxury by trade, expansion, or conquest, t
 During the We Love The King Day, the city will grow 25% faster. = 국왕 경축일 동안은 도시의 성장률이 25% 증가합니다.
 This means exploration and trade is important to grow your cities! = 따라서 도시 성장에는 정찰과 거래가 중요합니다.
 
+ # Requires translation!
+Air Combat and Interception = 
+ # Requires translation!
+Air Combat is very similar to normal Combat, with a few wrinkles. Damage is still dealt using the same equations based on the relative Strength of the Attacking and Defending Unit. = 
+ # Requires translation!
+However, before the Attacker and Defender fight, there is an added combat phase called Interception. If there is any unit with Interception Range that covers the target attacked tile, then it will attempt to Intercept the Attacking Air Unit. If multiple units can Intercept, the one with higher Intercept chance does it. = 
+ # Requires translation!
+Generally Land/Naval Units have an Intercept Range of 2 Tiles, and Air Units have an Intercept Range of their Attack Range. = 
+ # Requires translation!
+Ground and Naval Units don't require movement points to Intercept, just Attacks. Air Units cannot have moved nor attacked in the preceding turn. = 
+ # Requires translation!
+The Intercepting Unit rolls to see if it hits. Whether it hits or not costs an Attack, and most units (without Promotions) can only Attack Once per Nation's Turn. It does NOT cost Movement Points, but Air Units that have used their Movement cannot Intercept between turns. = 
+ # Requires translation!
+If the Intercepting Unit Hits, it deals damage according to the Combat Strength calculation to the Attacking Air Unit, potentially with any Strength Bonuses that apply to Interception. It does not receive damage from the Attacking Air Unit. = 
+ # Requires translation!
+After Interception resolves, the Attacking Air Unit and the Defending Unit in the targeted tile do Combat as normal, with damage dealt to both sides. = 
+ # Requires translation!
+To help deal with Interceptions, see Air Sweeps. = 
+
 Air Sweeps = 대공 무력화
 Fighter units are able to perform Air Sweeps over a tile helping clear out potential enemy Air, Sea, or Land Interceptions that can reach that tile. = 전투기는 어느 한 타일에 대공 무력화를 실행하여 육·해·공으로부터의 적의 요격을 제거할 수 있습니다.
 While this Action will take an Attack, the benefit is drawing out Interceptions to help protect your other Air Units. Especially your Bombers. = 대공 무력화는 유닛의 공격횟수를 소모하지만\n적의 요격횟수 또한 소진시켜 아군 공중 유닛, 특히 폭격기를 지킬 수 있습니다.
 Your unit will always draw an Interception, if one can reach the target tile, even if the Intercepting unit has a chance to miss. = 대공 무력화 지점에 요격 사거리가 닿는 모든 적은\n요격이 실패할 가능성이 있어도 반드시 요격을 시도합니다.
 If the Interceptor is not an Air Unit (eg Land or Sea), the Air Sweeping unit and Interceptor take no damage! = 지상, 해상 유닛이 요격할 때는 요격하는 유닛과 대공 무력화를 하는 유닛 양측 모두 피해를 받지 않습니다.
 If the Interceptor is an Air Unit, the two units will damage each other in a straight fight with no Interception bonuses. And only the Attacking Air Sweep Unit gets any Air Sweep strength bonuses. = 공중 유닛이 요격할 때는 양측 모두 요격 보너스는 적용되지 않으며\n대공 무력화를 하는 유닛만 대공 무력화 전투력 보너스를 받습니다.
+
+ # Requires translation!
+Fortify, Guard, Withdraw = 
+ # Requires translation!
+Most Land units have the ability to Fortify. As they spend time without moving, they will slowly gain a Fortification Bonus to their Combat Strength representing digging in and preparing in case of an attack. = 
+ # Requires translation!
+Some units have the ability to Withdraw before a melee attack is struck. However, perhaps you wish for them to stand their ground to protect a particular tile. If you do, then give them the Guard command and they will stay fixed until they die or you give them fresh orders. = 
+ # Requires translation!
+This is NOT the same as Fortify but they will still gain the Fortification Bonus. They will simply not utilize their Withdraw ability. Fortified units with the Withdraw ability will try to flee when attacked. = 
 
  # Requires translation!
 City Tile Blockade = 
@@ -6921,6 +7566,29 @@ City Blockade =
 One of your cities is under a naval blockade! When all adjacent water tiles of a coastal city are blocked - city loses harbor connection to all other cities, including capital. Make sure to de-blockade cities by deploying friendly military naval units to fight off invaders. = 
 
  # Requires translation!
+Spies! = 
+ # Requires translation!
+The first time a civ reaches the Renaissance era each nation gets one spy. Every time a civ reaches an era afterwards they get one more spy. = 
+ # Requires translation!
+Spies can be sent out to foreign cities to steal technology, rigging elections or stage coups. Place them in your own cities to do counter-intelligence work. = 
+ # Requires translation!
+Only one spy per civ is allowed in each city. Spies that are not in any city are on vacation in your spy hideout. = 
+ # Requires translation!
+Spies set up in cities of major civilizations will try to steal technology at a rate which is based off of the science production in the city. Succeeding to steal technology will level up your spy. Failing to succeed will level up the defending spy if it is present. = 
+ # Requires translation!
+Spies set in city-states will try to rig the elections in order to gain influence and reduce the influence of other civilizations. Only one spy partaking in rigging the election can win. = 
+ # Requires translation!
+A spy that is rigging an election in a city-state may also stage a coup. The likelihood of success for the coup depends on your relative influence to the current ally of the city-state, your spy level, and the level of the spy that the current ally has in the city-state if present. Succeeding a coup will make you their new ally and reduce the influence of all other civs. Failing a coup will kill your spy and level up the defending spy if present. = 
+ # Requires translation!
+Spies that are set up in your own cities will be conducting counter-intelligence. They reduce the success chance of other spies trying to steal your technology. = 
+ # Requires translation!
+Spies at a higher rank have a higher chance of success. The max rank a spy can reach is rank 3. After a spy is killed it will revive after a certain amount of turns back at rank 1. = 
+ # Requires translation!
+Building buildings like the constabulary and police station will reduce the technology steal rate of spies in that city. = 
+ # Requires translation!
+Espionage is available using the Gods and Kings ruleset. To enable it in a new game click advanced settings, then click on the Enable Espionage option. = 
+
+ # Requires translation!
 Keyboard Bindings = 
  # Requires translation!
 Limitations = 
@@ -6928,8 +7596,6 @@ Limitations =
 This is a work in progress. = 
  # Requires translation!
 For technical reasons, only direct keys or Ctrl-Letter combinations can be used. = 
- # Requires translation!
-The Escape key is intentionally excluded from being reassigned. = 
  # Requires translation!
 Using the Keys page = 
  # Requires translation!
@@ -6952,7 +7618,8 @@ Here you can find information - general help, rules, and what makes up the game 
 How to find information = 
 Select categories with the buttons on top of the screen. Also up there is the button to leave Civilopedia and go back to where you were before. = 화면 위쪽의 버튼을 눌러 카테고리를 선택할 수 있습니다. 또한 닫기 버튼을 눌러 문명 백과사전을 종료할 수 있습니다.
 Each category has a list of entries on the left of the screen, sorted alphabetically (with few exceptions). Clicking an entry will update the center pane were you are currently reading this. = 왼쪽 화면에서 각 카테고리에 해당하는 항목을 확인할 수 있으며, 일부 예외를 제외하고 순서는 가나다순입니다. 항목을 누르면 현재 보고 계신 중앙 화면에 내용이 표시됩니다.
-Lines can link to other Civilopedia entries, they are marked with a chain link symbol like this one. You can click anywhere on the line to follow the link. = 이 기호는 다른 문명 백과사전 항목과 연결되었음을 의미합니다. 이 기호가 있는 줄의 어떤 곳이든 눌러 해당 항목으로 이동할 수 있습니다.
+ # Requires translation!
+Lines can link to other Civilopedia entries, they are marked with a chain link symbol like this one. You can click anywhere on the line to follow the link. = 
 The current category is special - all articles on general concepts are here. It is called 'Tutorials' because you can revisit these here, too. = 현재 카테고리에서는 게임의 전반적인 정보를 얻을 수 있으며 '튜토리얼' 카테고리를 눌러 확인할 수 있습니다.
 What information can I find = 어떤 정보를 찾을 수 있나요?
 The data shown is not dependent on your current game's situation, e.g. bonuses for the nation you are playing or difficulty modifiers will not affect the numbers. = 문명 백과사전은 현재 획득한 보너스나 난이도와 같이 여러분이 지금 플레이하는 게임의 정보를 반영하지는 않습니다.
@@ -6978,9 +7645,9 @@ On the World screen, swipe the notification list to the right to temporarily hid
  # Requires translation!
 The default state for the notification list can be set in Options > Display > UI - Notifications on world screen. = 
  # Requires translation!
-Entering a city screen quickly = 
+Entering a City Screen quickly = 
  # Requires translation!
-You can Right-click or long press a city button on the World screen. The result is the same as tapping it twice - once to select and move the button, again to trigger a reaction: show the city screen (if the city is yours to inspect), or offer the foreign city info popup. = 
+You can Right-click or long press a city button on the World screen. The result is the same as tapping it twice - once to select and move the button, again to trigger a reaction: show the City Screen (if the city is yours to inspect), or offer the foreign city info popup. = 
  # Requires translation!
 Upgrade multiple units of the same type = 
  # Requires translation!
@@ -6988,11 +7655,9 @@ On the World screen, select an unit that can be upgraded, then right-click or lo
  # Requires translation!
 In the Units overview, the same upgrade menu is available by clicking the unit icon in the "Upgrade" column. When an unit is upgradeable, the icon is lit if conditions are met (enough gold and/or resources), otherwise it is dimmed. = 
  # Requires translation!
-City screen = 
- # Requires translation!
 Additional controls for the construction queue = 
  # Requires translation!
-Right-click or long press a construction item to open a popup menu with additional controls, allowing to manage production of the same item in all cities, by issuing the commands from the same City screen. = 
+Right-click or long press a construction item to open a popup menu with additional controls, allowing to manage production of the same item in all cities, by issuing the commands from the same City Screen. = 
  # Requires translation!
 The "Disable" option moves an item to a separated "Disabled" tab, preventing its automatic queueing by the "Auto-assign city production" option. To move a disabled item back to its initial place, enter again the popup menu, and choose "Enable". = 
  # Requires translation!
@@ -7018,7 +7683,7 @@ Reveal known resources on world screen =
  # Requires translation!
 In the Resources overview, click on a resource icon to center the world screen on tiles already discovered and providing this resource. = 
  # Requires translation!
-Alternatively, click on the "Unimproved" number to center the world screen only on owned tiles where the resource is not improved. = 
+Alternatively, click on the "Unimproved" number to center the world screen only on owned (by you or your allied City-states) tiles where the resource is not improved. = 
  # Requires translation!
 If more than one tile is available, click repeatedly on the notification to cycle through all of them. = 
  # Requires translation!
@@ -7034,3 +7699,32 @@ External links support right-click or long press to copy the link to the clipboa
  # Requires translation!
 Example: The 'Open Github page' button on the Mod management screen. = 
 
+ # Requires translation!
+Differences from Civilization V = 
+ # Requires translation!
+Production Focus\nIn Civilization V, the Food yield in a city is calculated first, then population grows by consuming stored food (growth), then production is calculated, and so on one by one the other stats are calculated. Thus, citizens can produce yields in the same turn as they are born. The city focus is set to Production to assign the newborn citizen to a hill so they'll contribute Production, and then manually reassigned to a growth tile on the next turn. Alternatively, you can set city focus to Gold (e.g. with Cerro de Potosi), Faith (e.g. with Mount Sinai) or whatever gains the most yields. In Unciv, citizens only start producing yields on the next turn, so you can ignore this whole concept. = 
+ # Requires translation!
+Science Queueing\nIn Civilization V, Science yield is calculated after production, so if you finish an item and have Science (or Gold) queued as a perpetual construction, the Production overflow from item will be converted into Science (or Gold), but the Production is not consumed, as this will only happen again on the next turn. By immediately swapping out your perpetual construction for an item on the next turn, you'll get this Science (or Gold) for free. This doesn't apply to Unciv, so don't bother. = 
+ # Requires translation!
+Double Aqueducts\nIn Civilization V, the game sells existing copies of the building for you before providing a free copy of the building. So, if you build an aqueduct in a city, and then in the turn of adopting Tradition Complete you sell a cheap building (e.g a shrine) beforehand, the game is unable to sell more than 1 building per turn, and thus you'll keep your aqueduct, together with the new free aqueduct. Not applicable to Unciv. = 
+ # Requires translation!
+Legalism Oxford\nIn Civilization V, national wonders such as Oxford University are considered culture buildings, so you can get them for free with Legalism. Not applicable to Unciv. = 
+ # Requires translation!
+Roads and Forts\nIn Civilization V, you can't use roads and forts in enemy territory. In Unciv, you can use them, so instead of mindlessly constructing them everywhere when at war, you need to decide if and when they'll benefit you more than your opponents. = 
+ # Requires translation!
+Citizen Conversion\nIn Civilization V, a citizen is born religious if the parent city is already converted. This is not the case in Unciv, which can lead to temporary deconversion of a city when it grows. = 
+ # Requires translation!
+Unassigned Citizens\nIn Civilization V, unassigned citizens are considered specialists, and subject to the same type of bonuses (e.g. Korea's ability). It can be worthwhile to leave citizens unassigned, instead of being assigned to a tile. Not applicable to Unciv. = 
+ # Requires translation!
+Settler Construction\nIn Civilization V, cities can't starve when constructing settlers, so you can assign all citizens to production tiles and none to food tiles. In Unciv, citizens keep consuming two food per turn. = 
+ # Requires translation!
+Water Melee Attack\nAs result of a Discord poll, Water Melee units can attack military land units on the shore, unlike in Civilization V. = 
+ # Requires translation!
+Tile improvements\nIn Civilzation V, workers start working on an improvement-under-construction at the beginning of movement. Unciv changes this, to allow players to assign workers to tiles, and then reconsider and change improvement or move them elsewhere. = 
+ # Requires translation!
+Forest and Jungle Visibility\nIn Unciv, forests and jungles are visible 1 tile outside visibility range. In Civilization V, this is the behaviour of hills and mountains, but not of forests and jungles, yet jungle and forest can block hills, and hill + forest can block mountain, indicating they're on the same elevation. This is considered to be a bug in the otherwise well-structured visibility logic in Civilization V. = 
+
+ # Requires translation!
+Founding Cities\nThe Settler is a unit that can found a new city. You can build a Settler unit in a city with at least 2 population, and then move them to a good location to found a new city. This will usually be your main way of acquiring more cities. = 
+ # Requires translation!
+Food conversion to Production\nDuring the construction of a Settler, the city will not grow. Instead, the 1st, 2nd, 4th, and from there on every 4th, excess Food (Growth) is converted into Production, with the rest of the excess Food being lost. = 
