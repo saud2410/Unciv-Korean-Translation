@@ -2,9 +2,17 @@
 [yairm unciv kor.prop](https://github.com/yairm210/Unciv/blob/master/android/assets/jsons/translations/Korean.properties)
 - vscode 중복검사: ```(?<line>^.+$)(.*\n)+?(\k<line>)```
 
+
 # Morugessoyo
 - "당신"
 - large amount: 다량의 vs 대량의
+
+
+# Motessoyo
+- 에만 가능 (페트라 vs 합리 정책)
+- 종교 중심지 5 종교의 신도 이상의 도시에서 사원에서 (ㅅㅂ..)
+- ~Archery(냉병기 원거리)~ (https://github.com/yairm210/Unciv/issues/6131)
+
 
 # Hassoyo
 - 하십시오체(합니다) 사용 *예외: 도움말.
@@ -17,9 +25,3 @@
 - are you sure~: ~정말로~ 정말 (게임 진행 중에 나오는 메시지에는 적지 않음)
 - transform: ~변형~ ~변화~ 변신.
 - experimental: 불안정한.
-
-# Motessoyo
-- 에만 가능 (페트라 vs 합리 정책)
-- 종교 중심지 5 종교의 신도 이상의 도시에서 사원에서 (ㅅㅂ..)
-- ~Archery(냉병기 원거리)~ (https://github.com/yairm210/Unciv/issues/6131)
-
