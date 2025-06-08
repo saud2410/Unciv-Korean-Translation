@@ -394,13 +394,13 @@ Map Type = 지도 선택
 Map file = 지도 파일
 Max Turns = 최대 턴수
 Could not load map! = 지도를 불러올 수 없습니다!
-Generated = 새 지도
+Generated = 단일 생성
 Random Generated = 랜덤 생성
-Which options should be available to the random selection? = 랜덤 생성 시 어떤 설정을 허용하겠습니까?
+Which options should be available to the random selection? = 생성되는 지도에 적용할 설정을 선택하세요
 Existing = 기존 지도
-Custom = 커스텀
-Map Generation Type = 지도 유형
-Enabled Map Generation Types = 허용된 지도 유형
+Custom = 사용자 지정
+Map Generation Type = 지도 종류
+Enabled Map Generation Types = 지도 종류 선택
  # Requires translation!
 Example map = 지도 견본
 
@@ -449,17 +449,17 @@ Your previous options needed to be reset to defaults. = 이전 설정이 불가�
 ? = ?
 
 Map Shape = 지도 모양
-Enabled Map Shapes = 허용된 지도 모양
-Hexagonal = 육각형
-Flat Earth Hexagonal = 육각 평면설지구
-Rectangular = 사각형
+Enabled Map Shapes = 지도 모양 선택
+Hexagonal = 육각
+Flat Earth Hexagonal = 육각 평면지구
+Rectangular = 사각
 Height = 높이
 Width = 너비
 Radius = 반경
 Enable Espionage = 스파이 활성화
 
 Resource Setting = 자원 설정
-Enabled Resource Settings = 허용된 자원 설정
+Enabled Resource Settings = 자원 설정 선택
 Other Settings = 기타 설정
 Sparse = 드묾
 Abundant = 풍족함
@@ -468,7 +468,7 @@ Legendary Start = 전설적인 시작
 This is used for painting resources, not in map generator steps: = 자원 배치에만 영향을 줄 뿐 지도 생성과 무관함:
 
 Advanced Settings = 고급 설정
-RNG Seed = 난수 시드값
+RNG Seed = 난수 시드
 Map Elevation = 육지 높이
 Temperature intensity = 온도 편차
 Temperature shift = 온도 편중
@@ -485,16 +485,16 @@ Open Documentation = 도움말 보기
 Don't show again = 다시 보지 않음
 
 World Size = 지도 크기
-Enabled World Sizes = 허용된 지도 크기
+Enabled World Sizes = 지도 크기 선택
 Tiny = 초소형
 Small = 소형
 Medium = 중형
 Large = 대형
 Huge = 초대형
 World wrap requires a minimum width of 32 tiles = 원통형 지도의 폭은 최소 32타일입니다
-The provided map dimensions were too small = 지정된 지도 크기가 너무 작습니다
-The provided map dimensions were too big = 지정된 지도 크기가 너무 큽니다
-The provided map dimensions had an unacceptable aspect ratio = 지정된 지도 비율이 올바르지 않습니다
+The provided map dimensions were too small = 지도가 너무 작습니다
+The provided map dimensions were too big = 지도가 너무 큽니다
+The provided map dimensions had an unacceptable aspect ratio = 지도의 종횡비가 올바르지 않습니다
 
 Difficulty = 난이도
 
@@ -591,7 +591,7 @@ Brush ([size]): = 브러시 ([size]칸)
 Floodfill_Abbreviation = 채우기
 Error loading map! = 로딩 에러 발생!
 Map saved successfully! = 저장 성공
-Current map RNG seed: [amount] = 현재 시드값: [amount]
+Current map RNG seed: [amount] = 현 지도 난수 시드: [amount]
 Map copy and paste = 지도 복사/붙여넣기
 Position: [param] = 위치: [param]
 Starting location(s): [param] = 시작 지점: [param]
@@ -721,9 +721,9 @@ You can only resign if it's your turn = 자기 차례에만 기권할 수 있습
 
 ## Force resign button
  # Requires translation!
-Force current player to resign = 현재 플레이어 기권시킴
+Force current player to resign = 현재 플레이어 강제 기권
  # Requires translation!
-Are you sure you want to force the current player ([civName]) to resign? = [civName]을(를) 게임에서 기권시킬까요?
+Are you sure you want to force the current player ([civName]) to resign? = 현재 차례인 [civName]을(를) 강제로 기권시킬까요?
 
  # Requires translation!
 Skip turn of current player = 현재 플레이어 건너뛰기
@@ -858,25 +858,25 @@ Visible = 보이기
 Permanent = 항상 보기
 
  # Requires translation!
-Show minimap = 
+Show minimap = 미니맵 보이기
 
 Show tutorials = 튜토리얼 보기
 Reset tutorials = 튜토리얼 초기화
-Do you want to reset completed tutorials? = 튜토리얼 진행상황을 초기화하겠습니까?
+Do you want to reset completed tutorials? = 튜토리얼 진행상황을 초기화할까요?
 Reset = 초기화
 
 Show zoom buttons in world screen = 세계 화면에서 확대/축소 버튼 보기
  # Requires translation!
-Experimental = 
-Experimental Demographics scoreboard = 인구통계학적 순위 보기 (실험적인 기능)
+Experimental = 실험실
+Experimental Demographics scoreboard = 순위를 통계로 요약하기
  # Requires translation!
-Unit movement button = 
+Unit movement button = 유닛 이동버튼 움직이기
  # Requires translation!
-Unit actions menu = 
-Never close popups by clicking outside = 팝업창 바깥 터치 시 창을 닫지 않음
+Unit actions menu = 유닛 행동버튼 움직이기
+Never close popups by clicking outside = 팝업창 바깥을 클릭해도 창 유지
  # Requires translation!
-Use circles to indicate movable tiles = 
-Size of Unitset art in Civilopedia = 문명 백과사전의 유닛 도트 크기
+Use circles to indicate movable tiles = 이동가능한 타일 원으로 표시
+Size of Unitset art in Civilopedia = 백과사전 유닛 도트 크기
 
 ### Visual Hints subgroup
 
@@ -900,13 +900,13 @@ When disabled, saves battery life but certain animations will be suspended = 해
 Gameplay = 게임
 Check for idle units = 턴 넘기기 전에 미행동 유닛 보기
  # Requires translation!
-'Next unit' button cycles idle units = 
+'Next unit' button cycles idle units = '다음 유닛' 버튼에 대기 유닛 포함
 Auto Unit Cycle = '다음 유닛' 버튼 자동
  # Requires translation!
-Show Small Skip/Cycle Unit Button = 
+Show Small Skip/Cycle Unit Button = 순환 버튼 표시
 Move units with a single tap = 탭 한 번에 유닛 이동
  # Requires translation!
-Move units with a long tap = 
+Move units with a long tap = 길게 탭하여 유닛 이동
 Auto-assign city production = 도시 생산 선택 자동
 Auto-build roads = 도로 건설 자동
 Automated workers replace improvements =  시설 대체 자동
@@ -1656,8 +1656,8 @@ Our status = 우리 상태
 Global status = 세계 상태
 Rankings = 순위
 Charts = 그래프
-Demographics = 인구통계학
-Demographic = 인구통계
+Demographics = 통계
+Demographic = 통계
 Rank = 순위
 Value = 값
 Best = 최고
@@ -2492,7 +2492,7 @@ Can only be created by Mercantile City-States = 상업적 도시 국가에서 �
 Stockpiled = 누적된
 City-level resource = 도시 레벨 자원
 Cannot be traded = 거래할 수 없음
-Guaranteed with Strategic Balance resource option = 자원 설정이 전략적 균형으로 보장됨
+Guaranteed with Strategic Balance resource option = 자원 설정 "전략적 균형" 으로 보장됨
 Can also be built on tiles adjacent to fresh water = 담수 옆에도 건설 가능
 [stats] from [tileFilter] tiles = [tileFilter]에서 [stats]
 Ensures a minimum tile yield of [stats] = 타일에 최소 [stats] 산출을 보장함
