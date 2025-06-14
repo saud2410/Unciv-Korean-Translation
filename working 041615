@@ -5340,7 +5340,7 @@ Only Polders can be built here = 현재 타일에 간척지 시설만 건설 가
 Fallout = 낙진
 
  # Requires translation!
-Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes). = 
+Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes). = 인접 타일에 담수를 제공하여 농장 건설을 가능케 함 (≒ 강, 호수)
 
 Flood plains = 범람원
 
@@ -5349,15 +5349,15 @@ Ice = 빙하
 Atoll = 산호섬
 
  # Requires translation!
-Rivers exist on tile edges, not as terrain feature per se. = 
+Rivers exist on tile edges, not as terrain feature per se. = 여타 추가지형과는 다르게 타일 사이에 존재함
  # Requires translation!
-Tiles on both sides gain its benefits. These benefits do not stack. = 
+Tiles on both sides gain its benefits. These benefits do not stack. = 인접한 양 타일이 보너스를 받으며 누적되지 않음
  # Requires translation!
-The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes). = 
+The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes). = 인접 타일에 담수를 제공하여 농장 건설을 가능케 함 (≒ 호수, 오아시스)
  # Requires translation!
-Movement across rivers takes all remaining movement points of a unit unless there is a bridge. = 
+Movement across rivers takes all remaining movement points of a unit unless there is a bridge. = 다리 없이 도하시 유닛 이동력 모두 소진
  # Requires translation!
-When attacking across a river, the attacker gets a -20% strength malus. = 
+When attacking across a river, the attacker gets a -20% strength malus. = 강 건너편의 적 공격시 도하 페널티 -20% 부여
 Road = 도로
 Amphibious = 수륙 양용
 
@@ -5414,7 +5414,7 @@ Requires Engineering to bridge rivers = 공학 연구 후 도로가 강을 가�
 Railroad = 철도
 Reduces movement cost to ⅒ if the other tile also has a Railroad = 철도에서 철도 타일로 이동시 행동력 0.1 소모
  # Requires translation!
-Provides a +25% [Production] bonus to cities connected to the capital by Railroads = 
+Provides a +25% [Production] bonus to cities connected to the capital by Railroads = 수도에 철도로 연결된 도시에 [Production] 보너스 +25% 제공
 
 Remove Forest = 숲 제거
 Provides a one-time Production bonus depending on distance to the closest city once finished = 완료시 가장 가까운 도시에 일회성 생산력 제공
@@ -5946,7 +5946,7 @@ Complete 5 policy branches and\nbuild the Utopia Project to win! = 정책 트리
 You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart. = 당신은 막강한 문화의 힘으로 승리를 거두었습니다. 당신 문명의 위대함, 그 기념비의 장엄함과 예술가의 힘에 전 세계가 경탄했습니다! 아름다움이 지친 마음에 기쁨을 주는 한, 시인들은 당신을 기릴 것입니다.
 
  # Requires translation!
-Capture all enemy Capitals\nto win! = 
+Capture all enemy Capitals\nto win! = 적의 모든 수도를 점령하여 승리하세요!
 The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph! = 세계는 전쟁으로 고통받았습니다. 여러 위대한 문명이 몰락했으나, 당신은 살아남아 승리했습니다! 세상은 당신의 영광스러운 승리를 오래오래 기억할 것입니다!
 
 Build the UN and be voted\nworld leader to win! = UN을 건설하고 세계 지도자로 선출되어 승리하세요!
@@ -6109,7 +6109,7 @@ Ceilidh Hall = 케일리 홀
 
 
  # Requires translation!
-Constabulary = 
+Constabulary = 경찰대
 
 
 Leaning Tower of Pisa = 피사의 탑
@@ -6120,11 +6120,11 @@ Coffee House = 카페
 
 
  # Requires translation!
-Police Station = 
+Police Station = 경찰서
 
 
  # Requires translation!
-National Intelligence Agency = 
+National Intelligence Agency = 국가 정보국
 
 
 Neuschwanstein = 노이슈반슈타인 성
@@ -6135,9 +6135,9 @@ Recycling Center = 재활용 센터
 
 
  # Requires translation!
-Great Firewall = 
+Great Firewall = 인터넷 검열 시스템
  # Requires translation!
-'Distrust and caution are the parents of security.' - Benjamin Franklin = 
+'Distrust and caution are the parents of security.' - Benjamin Franklin = '보안의 기본은 불신과 경계심이다.' - 벤자민 프랭클린
 
 CN Tower = CN 타워
 'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams = '물리학에서 빛보다 빠른 물체는 없다. 그러나 나쁜 소식은 빛보다 빠를 수 있다. 이는 소식이 퍼지는 데 특별한 법칙이 적용되기 때문이다.' - 더글라스 애덤스
@@ -7768,31 +7768,31 @@ The arrow keys allow navigation as well - left/right for categories, up/down for
  # Requires translation!
 UI Tips = 
  # Requires translation!
-World screen = 
+World screen = 세계 화면
  # Requires translation!
-Skip all units to end a turn quickly = 
+Skip all units to end a turn quickly = 모든 유닛 스킵하고 즉시 턴 종료
  # Requires translation!
-Right-click or long press the "Next unit" button to open a popup menu which allows to end a turn without having to cycle through all units. If some units are automated, a dedicated button is available to move them before ending the turn. = 
+Right-click or long press the "Next unit" button to open a popup menu which allows to end a turn without having to cycle through all units. If some units are automated, a dedicated button is available to move them before ending the turn. = '다음 유닛' 버튼을 길게 탭 또는 우클릭하여 팝업 메뉴에서 턴 즉시 종료가 가능합니다. 자동화된 유닛이 있을 경우 턴 종료 전 따로 버튼이 생성됩니다.
  # Requires translation!
-Toggle notification list display = 
+Toggle notification list display = 알림 표시 변경
  # Requires translation!
-On the World screen, swipe the notification list to the right to temporarily hide it. Click the "Bell" button to display them again. = 
+On the World screen, swipe the notification list to the right to temporarily hide it. Click the "Bell" button to display them again. = 세계 화면에서 알림은 오른쪽으로 스와이프하여 잠시 숨길 수 있고, 벨 버튼을 클릭하여 다시 보일 수 있습니다.
  # Requires translation!
-The default state for the notification list can be set in Options > Display > UI - Notifications on world screen. = 
+The default state for the notification list can be set in Options > Display > UI - Notifications on world screen. = 알림 표시 설정은 설정 > 화면 > 사용자 인터페이스 > "세계 화면 알림 표시" 에서 가능합니다.
  # Requires translation!
-Entering a City Screen quickly = 
+Entering a City Screen quickly = 빠른 도시 화면 진입
  # Requires translation!
-You can Right-click or long press a city button on the World screen. The result is the same as tapping it twice - once to select and move the button, again to trigger a reaction: show the City Screen (if the city is yours to inspect), or offer the foreign city info popup. = 
+You can Right-click or long press a city button on the World screen. The result is the same as tapping it twice - once to select and move the button, again to trigger a reaction: show the City Screen (if the city is yours to inspect), or offer the foreign city info popup. = 세계 화면에서 도시 버튼을 길게 탭 또는 우클릭하여 내 도시의 도시 화면에 진입할 수 있습니다. 이는 기존의 두 번 클릭(도시선택 - 재클릭)과 동일합니다. 플레이어 소유의 도시가 아닐 경우 도시 정보 팝업이 뜹니다.
  # Requires translation!
-Upgrade multiple units of the same type = 
+Upgrade multiple units of the same type = 동일한 유닛 여럿을 한꺼번에 업그레이드
  # Requires translation!
-On the World screen, select an unit that can be upgraded, then right-click or long press the "Upgrade" button to open a popup menu allowing to upgrade all units of this type at once. = 
+On the World screen, select an unit that can be upgraded, then right-click or long press the "Upgrade" button to open a popup menu allowing to upgrade all units of this type at once. = 세계 화면에서 업그레이드 가능한 유닛을 선택하고 업그레이드 버튼을 길게 탭 또는 우클릭하여, 팝업 메뉴에서 동일한 종류의 유닛을 한꺼번에 업그레이드할 수 있습니다.
  # Requires translation!
-In the Units overview, the same upgrade menu is available by clicking the unit icon in the "Upgrade" column. When an unit is upgradeable, the icon is lit if conditions are met (enough gold and/or resources), otherwise it is dimmed. = 
+In the Units overview, the same upgrade menu is available by clicking the unit icon in the "Upgrade" column. When an unit is upgradeable, the icon is lit if conditions are met (enough gold and/or resources), otherwise it is dimmed. = 문명 상태 > 유닛 탭에서도 업그레이드 열의 유닛 아이콘을 클릭하여 동일한 조작이 가능합니다. 다음 업그레이드가 그저 연구된 상태라면 아이콘은 어두운 상태이고, 업그레이드 가능한 상태(골드/자원)일 경우 밝은 녹색으로 보입니다.
  # Requires translation!
-Additional controls for the construction queue = 
+Additional controls for the construction queue = 건설 대기열 관련 조작
  # Requires translation!
-Right-click or long press a construction item to open a popup menu with additional controls, allowing to manage production of the same item in all cities, by issuing the commands from the same City Screen. = 
+Right-click or long press a construction item to open a popup menu with additional controls, allowing to manage production of the same item in all cities, by issuing the commands from the same City Screen. = 도시 화면 > 건설 대기열에서 길게 탭 또는 우클릭하여 여러 도시 간 조작이 가능합니다.
  # Requires translation!
 The "Disable" option moves an item to a separated "Disabled" tab, preventing its automatic queueing by the "Auto-assign city production" option. To move a disabled item back to its initial place, enter again the popup menu, and choose "Enable". = 
  # Requires translation!
