@@ -7598,7 +7598,7 @@ Letters can select categories, and when there are multiple categories matching t
 The arrow keys allow navigation as well - left/right for categories, up/down for entries. = 
 
  # Requires translation!
-UI Tips = 
+UI Tips = UI 팁
 World screen = 세계 화면
 Skip all units to end a turn quickly = 모든 유닛 스킵하고 즉시 턴 종료
 Right-click or long press the "Next unit" button to open a popup menu which allows to end a turn without having to cycle through all units. If some units are automated, a dedicated button is available to move them before ending the turn. = '다음 유닛' 버튼을 길게 탭 또는 우클릭하여 팝업 메뉴에서 턴 즉시 종료가 가능합니다. 자동화된 유닛이 있을 경우 턴 종료 전 따로 버튼이 생성됩니다.
