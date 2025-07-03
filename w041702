@@ -2731,7 +2731,7 @@ Friendly Land = 우호 지역
 Enemy Land = 적대 지역
 your = 우리
  # Requires translation!
-Unowned = 
+Unowned = 중립 지역
 Featureless = 추가지형이 없는
 Fresh Water = 담수
 non-fresh water = 담수가 아닌 물
@@ -2836,7 +2836,7 @@ Ruins = 도시 폐허
 GlobalUniques = 전역특성
 Speed = 속도
 Tutorial = 튜토리얼
-CityState = 도시 국가
+CityState = 도시국가
 ModOptions = 모드설정
 Event = 이벤트
 EventChoice = 이벤트선택지
